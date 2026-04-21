@@ -8,7 +8,8 @@ export type TreeButton = {
   goesTo:
     | { type: "node"; nodeId: string }
     | { type: "rule"; ruleId: string }
-    | { type: "signal_grid" };
+    | { type: "signal_grid" }
+    | { type: "lifeline" };
 };
 
 export type TreeNode = {
@@ -31,10 +32,12 @@ export const tree: Record<string, TreeNode> = {
       { label: "The ref made a signal I don't recognize", goesTo: { type: "signal_grid" } },
       { label: "A flag is on the ground", goesTo: { type: "node", nodeId: "flag_on_ground" } },
       { label: "Something happened at the goal", goesTo: { type: "node", nodeId: "goal_event" } },
+      { label: "The ball changed teams but nobody went to the box", goesTo: { type: "node", nodeId: "ball_changed_teams" } },
       { label: "Play didn't stop when I expected it to", goesTo: { type: "node", nodeId: "play_continued" } },
       { label: "The faceoff keeps getting reset", goesTo: { type: "rule", ruleId: "faceoff_situations" } },
       { label: "A stick broke or a helmet came off", goesTo: { type: "node", nodeId: "equipment_event" } },
       { label: "The team is just holding the ball", goesTo: { type: "rule", ruleId: "stalling_situations" } },
+      { label: "I'm not sure what I saw — show me the most common calls", goesTo: { type: "lifeline" } },
     ],
   },
 
@@ -142,7 +145,57 @@ export const tree: Record<string, TreeNode> = {
   },
 
   // ────────────────────────────────────────────────────────────
-  // BRANCH 5 — PLAY DIDN'T STOP
+  // BRANCH 5 (NEW) — BALL CHANGED TEAMS WITHOUT A PENALTY
+  // ────────────────────────────────────────────────────────────
+  ball_changed_teams: {
+    id: "ball_changed_teams",
+    question: "Where on the field did it happen?",
+    buttons: [
+      { label: "Near the goal the offense was attacking", goesTo: { type: "node", nodeId: "ball_changed_near_goal" } },
+      { label: "In open field or a scrum for a loose ball", goesTo: { type: "node", nodeId: "ball_changed_open_field" } },
+      { label: "Near midfield or during a clear", goesTo: { type: "node", nodeId: "ball_changed_midfield" } },
+      { label: "On a faceoff", goesTo: { type: "rule", ruleId: "faceoff_situations" } },
+      { label: "Ref had a hand on hip, then dropped it", goesTo: { type: "rule", ruleId: "failure_to_advance" } },
+    ],
+  },
+
+  ball_changed_near_goal: {
+    id: "ball_changed_near_goal",
+    question: "What did it look like?",
+    buttons: [
+      { label: "Offensive player stepped in the crease", goesTo: { type: "rule", ruleId: "crease_violation" } },
+      { label: "Offensive player shoved a defender", goesTo: { type: "rule", ruleId: "push" } },
+      { label: "Offensive player used a free hand to push off", goesTo: { type: "rule", ruleId: "warding" } },
+      { label: "Offensive player set a moving screen", goesTo: { type: "rule", ruleId: "illegal_screen" } },
+    ],
+  },
+
+  ball_changed_open_field: {
+    id: "ball_changed_open_field",
+    question: "What did you see?",
+    buttons: [
+      { label: "A player held or grabbed another player", goesTo: { type: "rule", ruleId: "hold" } },
+      { label: "A player shoved another player", goesTo: { type: "rule", ruleId: "push" } },
+      { label: "A player blocked someone not near the ball", goesTo: { type: "rule", ruleId: "interference" } },
+      { label: "A ball-carrier used a free arm to clear space", goesTo: { type: "rule", ruleId: "warding" } },
+      { label: "A player set a moving screen / pick", goesTo: { type: "rule", ruleId: "illegal_screen" } },
+      { label: "Ref rolled their hands (stick / equipment)", goesTo: { type: "rule", ruleId: "illegal_procedure" } },
+    ],
+  },
+
+  ball_changed_midfield: {
+    id: "ball_changed_midfield",
+    question: "What was the call?",
+    buttons: [
+      { label: "Ref's arms straight out to the sides", goesTo: { type: "rule", ruleId: "offsides" } },
+      { label: "Hand on hip, then dropped — failure to advance", goesTo: { type: "rule", ruleId: "failure_to_advance" } },
+      { label: "Ball went out — pointed to the sideline", goesTo: { type: "rule", ruleId: "out_of_bounds" } },
+      { label: "Ball looked fine but possession flipped", goesTo: { type: "rule", ruleId: "failure_to_advance" } },
+    ],
+  },
+
+  // ────────────────────────────────────────────────────────────
+  // BRANCH 6 — PLAY DIDN'T STOP
   // ────────────────────────────────────────────────────────────
   play_continued: {
     id: "play_continued",

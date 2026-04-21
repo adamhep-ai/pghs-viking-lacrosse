@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { TreePage } from "./pages/TreePage";
 import { SignalGridPage } from "./pages/SignalGridPage";
+import { CommonCallsPage } from "./pages/CommonCallsPage";
 import { RuleDetailPage } from "./pages/RuleDetailPage";
 import { BasicsPage } from "./pages/BasicsPage";
 import { RulesPage } from "./pages/RulesPage";
@@ -16,6 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<TreePage />} />
           <Route path="/t/signals" element={<SignalGridPage />} />
+          <Route path="/t/common" element={<CommonCallsPage />} />
           <Route path="/t/:nodeId" element={<TreePage />} />
           <Route path="/r/:ruleId" element={<RuleDetailPage />} />
           <Route path="/basics" element={<BasicsPage />} />
