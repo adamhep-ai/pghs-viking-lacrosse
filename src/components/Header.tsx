@@ -10,11 +10,11 @@ export function Header() {
           aria-label="Home"
         >
           <img
-            src="/viking-primary.svg"
+            src="/viking-primary.png"
             alt=""
-            className="h-8 w-8"
-            width={32}
-            height={32}
+            className="h-9 w-9 object-contain"
+            width={36}
+            height={36}
           />
           <span className="hidden sm:inline">Viking Lacrosse</span>
         </Link>

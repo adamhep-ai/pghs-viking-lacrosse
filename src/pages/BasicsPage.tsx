@@ -15,9 +15,9 @@ export function BasicsPage() {
     <article className="space-y-10">
       <header className="flex items-center gap-4">
         <img
-          src="/viking-badge.svg"
+          src="/viking-badge.png"
           alt={`${TEAM_NAME} logo`}
-          className="h-16 w-16 shrink-0"
+          className="h-16 w-16 shrink-0 rounded-full shadow-sm"
           width={64}
           height={64}
         />

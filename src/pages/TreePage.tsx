@@ -46,11 +46,11 @@ function Hero() {
   return (
     <div className="flex flex-col items-center text-center pt-4 pb-2">
       <img
-        src="/viking-badge.svg"
+        src="/viking-badge.png"
         alt={`${TEAM_NAME} logo`}
-        className="h-24 w-24 mb-3"
-        width={96}
-        height={96}
+        className="h-28 w-28 mb-3 rounded-full shadow-sm"
+        width={112}
+        height={112}
       />
       <h1 className="text-3xl sm:text-4xl font-extrabold text-team-blue-dark leading-tight">
         What did the ref just call?

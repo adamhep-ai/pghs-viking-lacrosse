@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --team-blue: #1e4fb8;
-  --team-blue-dark: #143a8a;
-  --team-blue-light: #e8f0ff;
+  --team-blue: #4b5fa4;
+  --team-blue-dark: #2e3a66;
+  --team-blue-light: #eceff7;
   --team-grey: #6b7280;
   --team-grey-light: #f3f4f6;
   --team-white: #ffffff;
