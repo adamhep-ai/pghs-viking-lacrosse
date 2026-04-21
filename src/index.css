@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --team-blue: #1e4fb8;
+  --team-blue-dark: #143a8a;
+  --team-blue-light: #e8f0ff;
+  --team-grey: #6b7280;
+  --team-grey-light: #f3f4f6;
+  --team-white: #ffffff;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #111827;
+  background: var(--team-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Instant-feeling transitions: nothing over 150ms */
+a,
+button {
+  transition-duration: 120ms;
+  transition-property: background-color, color, border-color, transform;
+}
+
+/* Keyboard focus ring tuned to team palette */
+:focus-visible {
+  outline: 2px solid var(--team-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
