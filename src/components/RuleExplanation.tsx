@@ -68,6 +68,7 @@ export function RuleExplanation({ rule, compact = false }: Props) {
               <li key={r.id}>
                 <Link
                   to={`/r/${r.id}`}
+                  replace
                   className="block rounded-md px-3 py-2 border border-team-grey-light hover:bg-team-blue-light hover:border-team-blue"
                 >
                   <span className="font-medium text-team-blue-dark">{r.title}</span>

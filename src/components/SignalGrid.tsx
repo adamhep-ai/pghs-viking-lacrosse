@@ -57,6 +57,7 @@ export function SignalGrid() {
           <li key={tile.signal}>
             <Link
               to={`/r/${tile.ruleId}`}
+              replace
               className="flex flex-col items-center justify-center gap-2 p-4 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue active:scale-[0.99] text-team-blue-dark h-full"
             >
               <SignalSvg name={tile.signal} size={72} className="text-team-blue" />
@@ -81,6 +82,7 @@ export function SignalGrid() {
           Still not sure?{" "}
           <Link
             to="/t/common"
+            replace
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             See the most common calls
@@ -88,6 +90,7 @@ export function SignalGrid() {
           {" "}or{" "}
           <Link
             to="/"
+            replace
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             start over

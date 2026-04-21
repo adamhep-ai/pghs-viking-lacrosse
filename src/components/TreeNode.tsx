@@ -7,19 +7,23 @@ type Props = { node: TreeNodeData };
 export function TreeNode({ node }: Props) {
   const navigate = useNavigate();
 
+  // Tree interactions replace the current history entry instead of pushing
+  // a new one, so the browser back button exits the app in a single tap.
+  // The in-app "← Back" button uses the sessionStorage trail (see /lib/history.ts).
   const go = (button: TreeNodeData["buttons"][number]) => {
+    const opts = { replace: true };
     switch (button.goesTo.type) {
       case "node":
-        navigate(`/t/${button.goesTo.nodeId}`);
+        navigate(`/t/${button.goesTo.nodeId}`, opts);
         return;
       case "rule":
-        navigate(`/r/${button.goesTo.ruleId}`);
+        navigate(`/r/${button.goesTo.ruleId}`, opts);
         return;
       case "signal_grid":
-        navigate("/t/signals");
+        navigate("/t/signals", opts);
         return;
       case "lifeline":
-        navigate("/t/common");
+        navigate("/t/common", opts);
         return;
     }
   };

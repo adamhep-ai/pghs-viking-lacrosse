@@ -52,6 +52,7 @@ export function CommonCallsPage() {
             <li key={call.ruleId}>
               <Link
                 to={`/r/${call.ruleId}`}
+                replace
                 className="flex items-start gap-3 p-4 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue active:scale-[0.99]"
               >
                 {call.signal && (
@@ -76,6 +77,7 @@ export function CommonCallsPage() {
           Still not finding it?{" "}
           <Link
             to="/t/signals"
+            replace
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             Try matching the ref's signal

@@ -11,7 +11,7 @@ export function BackButton({ variant = "default", label = "← Back" }: Props) {
 
   const onClick = () => {
     const prev = popHistory();
-    navigate(prev ?? "/");
+    navigate(prev ?? "/", { replace: true });
   };
 
   const base =
@@ -35,7 +35,7 @@ export function StartOverButton() {
       type="button"
       onClick={() => {
         clearHistory();
-        navigate("/");
+        navigate("/", { replace: true });
       }}
       className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
     >
