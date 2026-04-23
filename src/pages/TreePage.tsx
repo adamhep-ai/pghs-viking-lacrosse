@@ -4,7 +4,6 @@ import { ROOT_NODE_ID, tree } from "../data/tree";
 import { TreeNode } from "../components/TreeNode";
 import { BackButton, StartOverButton } from "../components/BackButton";
 import { pushHistory } from "../lib/history";
-import { TEAM_NAME } from "../config";
 
 export function TreePage() {
   const { nodeId } = useParams<{ nodeId?: string }>();
@@ -24,40 +23,27 @@ export function TreePage() {
 
   return (
     <div className="space-y-6">
-      {isRoot && <Hero />}
+      <header className="space-y-1">
+        <p className="text-xs font-semibold uppercase tracking-wide text-team-grey">
+          Help me find what I saw
+        </p>
+        <p className="text-sm text-team-grey">
+          Tap whichever option fits — we'll narrow it down.
+        </p>
+      </header>
 
       <TreeNode node={node} />
 
       <div className="flex flex-wrap gap-2 pt-2">
         {!isRoot && <BackButton />}
-        {!isRoot && <StartOverButton />}
+        {!isRoot && <StartOverButton label="Start finder over" to="/t/root" />}
         <Link
-          to="/rules"
+          to="/"
           className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
         >
-          Browse all rules →
+          ← Back to rule cards
         </Link>
       </div>
-    </div>
-  );
-}
-
-function Hero() {
-  return (
-    <div className="flex flex-col items-center text-center pt-4 pb-2">
-      <img
-        src="/viking-badge.png"
-        alt={`${TEAM_NAME} logo`}
-        className="h-28 w-28 mb-3 rounded-full shadow-sm"
-        width={112}
-        height={112}
-      />
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-team-blue-dark leading-tight">
-        What did the ref just call?
-      </h1>
-      <p className="mt-2 text-team-grey max-w-md">
-        Tap what you saw. We'll get you to an answer.
-      </p>
     </div>
   );
 }

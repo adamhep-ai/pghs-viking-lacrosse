@@ -3,8 +3,8 @@
 // Validates:
 //   1. Every TreeButton with goesTo.type === "rule" has a matching Rule.id.
 //   2. Every TreeButton with goesTo.type === "node" points to a real tree node.
-//   3. Every Rule.signal (when set) is a valid SignalName rendered by SignalSvg.
-//   4. Every Rule.relatedRuleIds entry points to a real rule.
+//   3. Every Rule.relatedRuleIds entry points to a real rule.
+//   4. Every Rule with feature set uses an allowed value.
 
 import { rules } from "../src/data/rules";
 import { tree } from "../src/data/tree";
@@ -38,27 +38,13 @@ for (const rule of rules) {
       errors.push(`Rule "${rule.id}" relatedRuleIds contains missing rule "${id}"`);
     }
   }
-}
-
-// Every Rule.signal must be a SignalName we actually render. We derive the
-// valid set by reading the SignalSvg source and matching the switch cases.
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
-import { dirname, resolve } from "node:path";
-
-const here = dirname(fileURLToPath(import.meta.url));
-const svgSrc = readFileSync(resolve(here, "../src/components/SignalSvg.tsx"), "utf8");
-const renderedSignals = new Set(
-  Array.from(svgSrc.matchAll(/case "([a-z_]+)":/g)).map((m) => m[1])
-);
-
-for (const rule of rules) {
-  if (rule.signal && !renderedSignals.has(rule.signal)) {
-    errors.push(
-      `Rule "${rule.id}" uses signal "${rule.signal}" but SignalSvg has no case for it`
-    );
+  if (rule.feature && rule.feature !== "big_picture" && rule.feature !== "common_confusion") {
+    errors.push(`Rule "${rule.id}" has invalid feature value "${rule.feature}"`);
   }
 }
+
+const bigPictureCount = rules.filter((r) => r.feature === "big_picture").length;
+const commonConfusionCount = rules.filter((r) => r.feature === "common_confusion").length;
 
 if (errors.length > 0) {
   console.error(`\nFAIL — ${errors.length} issue(s):\n`);
@@ -67,5 +53,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `OK — ${rules.length} rules, ${nodeIds.size} tree nodes, ${renderedSignals.size} signals rendered. All references resolve.`
+  `OK — ${rules.length} rules (${bigPictureCount} big-picture, ${commonConfusionCount} common-confusion), ${nodeIds.size} tree nodes. All references resolve.`
 );

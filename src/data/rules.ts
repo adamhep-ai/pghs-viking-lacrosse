@@ -43,11 +43,17 @@ export type Rule = {
   id: string;
   title: string;
   category: RuleCategory;
+  summary?: string;           // one-sentence glance answer, shown under the title
+  whyItsConfusing?: string;   // the parent's likely misunderstanding (glance block)
   whatYouSee: string;
   whatItMeans: string;
   whatHappensNext: string;
-  signal?: SignalName;
+  signal?: SignalName;        // retained in data for possible future use; not rendered
   relatedRuleIds?: string[];
+  // Featured rules appear as big cards on the homepage.
+  // "big_picture" = one of the top 5 the parent must learn to follow a game.
+  // "common_confusion" = the other 7 frequently-asked-about rules.
+  feature?: "big_picture" | "common_confusion";
 };
 
 export const rules: Rule[] = [
@@ -59,6 +65,9 @@ export const rules: Rule[] = [
     id: "slashing",
     title: "Slashing",
     category: "personal_foul",
+    summary: "Reckless or uncontrolled stick contact with an opponent's body. 1-minute penalty.",
+    whyItsConfusing:
+      "Stick contact happens constantly — only certain types are illegal. Controlled checks to the opponent's stick or gloved hand are fine. What the ref is judging is whether the check was controlled, not whether it was loud.",
     whatYouSee:
       "A loud stick-on-body contact, a quick whistle, and usually a flag dropping to the ground.",
     whatItMeans:
@@ -66,7 +75,8 @@ export const rules: Rule[] = [
     whatHappensNext:
       "The player who slashed goes to the penalty box for 1 minute. The other team gets the ball and plays with a one-man advantage until the time runs out or they score.",
     signal: "slash",
-    relatedRuleIds: ["cross_check", "illegal_body_check", "unnecessary_roughness"],
+    relatedRuleIds: ["cross_check", "illegal_body_check", "unnecessary_roughness", "basic_penalties_overview"],
+    feature: "common_confusion",
   },
 
   {
@@ -87,6 +97,9 @@ export const rules: Rule[] = [
     id: "illegal_body_check",
     title: "Illegal body check",
     category: "personal_foul",
+    summary: "Body checks are legal — but not from behind, above the shoulders, below the waist, or late.",
+    whyItsConfusing:
+      "Some hits look huge but are legal (shoulder-to-shoulder on a ball carrier); others look minor but draw flags. The 'look' isn't what the ref is judging — it's angle, timing, and where the contact lands.",
     whatYouSee:
       "A big hit, often followed by a flag. The player who got hit may be slow to get up.",
     whatItMeans:
@@ -95,6 +108,7 @@ export const rules: Rule[] = [
       "1 to 3 minutes in the penalty box depending on how severe the ref considers the hit. More dangerous checks get longer penalties, and the worst ones can be non-releasable (see Dangerous contact).",
     signal: "illegal_body_check",
     relatedRuleIds: ["dangerous_contact", "defenseless_player", "legal_body_check", "unnecessary_roughness"],
+    feature: "common_confusion",
   },
 
   {
@@ -175,20 +189,27 @@ export const rules: Rule[] = [
     id: "push",
     title: "Push",
     category: "technical_foul",
+    summary: "Shoving an opponent off-balance — especially from behind. 30-second penalty or turnover.",
+    whyItsConfusing:
+      "Physical play is allowed, so push calls can feel random. What's actually illegal is shoving with hands, arms, or body — especially from behind on a loose ball, which looks like normal hustle but is a penalty.",
     whatYouSee:
       "One player shoves another off-balance or from behind. Whistle, sometimes a flag.",
     whatItMeans:
-      "A push is any shove to an opponent that's not part of a legal body check. The most common version is a defender shoving an offensive player from behind. Players are allowed to play physically with hands on the stick, but they're not allowed to shove with the hands, arms, or body.",
+      "A push is any shove to an opponent that's not part of a legal body check. The most common version is a defender shoving an offensive player from behind. Players are allowed to play physically with hands on the stick, but they're not allowed to shove with the hands, arms, or body. Pushing an opponent from behind while they chase a loose ball — even lightly — is one of the most-called technical fouls.",
     whatHappensNext:
       "If the player being pushed had the ball, it's a 30-second penalty. If they didn't have the ball, it's usually just a turnover. The other team gets the ball at the spot.",
     signal: "push",
-    relatedRuleIds: ["hold", "interference"],
+    relatedRuleIds: ["hold", "interference", "loose_ball_push", "possession_vs_loose_ball", "basic_penalties_overview"],
+    feature: "common_confusion",
   },
 
   {
     id: "hold",
     title: "Hold / Holding",
     category: "technical_foul",
+    summary: "Using your stick or arms to impede an opponent — wrapping, hooking, grabbing.",
+    whyItsConfusing:
+      "Lacrosse is a physical sport, but only within strict limits. Body contact to hold position is fine; wrapping your arm around an opponent or grabbing their stick is not. The line is whether you're using leverage or restraint.",
     whatYouSee:
       "A whistle near a battle for position, often between a defender and an offensive player.",
     whatItMeans:
@@ -196,7 +217,8 @@ export const rules: Rule[] = [
     whatHappensNext:
       "30-second penalty if the player being held had the ball, otherwise usually a turnover.",
     signal: "hold",
-    relatedRuleIds: ["push", "interference", "warding"],
+    relatedRuleIds: ["push", "interference", "warding", "basic_penalties_overview"],
+    feature: "common_confusion",
   },
 
   {
@@ -211,6 +233,23 @@ export const rules: Rule[] = [
       "30-second penalty or turnover, depending on how it happened and who had the ball.",
     signal: "interference",
     relatedRuleIds: ["push", "hold", "illegal_screen"],
+  },
+
+  {
+    id: "loose_ball_push",
+    title: "Loose-ball push (from behind)",
+    category: "technical_foul",
+    summary: "You can't push a player from behind while they're chasing a loose ball — even lightly.",
+    whyItsConfusing:
+      "It looks like normal hustle on a ground ball. But position — whether you're in front of or behind the opponent — is what the ref cares about, not how hard the contact is. A nudge in the back during a scramble is a penalty.",
+    whatYouSee:
+      "A scramble for a loose ball. A player from behind bumps into a teammate battling for it. Whistle, ball goes the other way.",
+    whatItMeans:
+      "A specific version of a push foul: pushing an opponent in the back while both players are going for a ground ball. This is a technical foul even if the contact is minor, because it's about preventing unfair positioning rather than preventing hard hits. Players are expected to beat an opponent to the ball with their feet, not with their hands in the opponent's back.",
+    whatHappensNext:
+      "Turnover to the other team at the spot of the ball, or a 30-second penalty if the fouled team already had possession.",
+    relatedRuleIds: ["push", "possession_vs_loose_ball", "basic_penalties_overview"],
+    feature: "common_confusion",
   },
 
   {
@@ -263,6 +302,9 @@ export const rules: Rule[] = [
     id: "offsides",
     title: "Offsides",
     category: "procedural",
+    summary: "Each team must always keep 4 players on their defensive half (goalie + 3 D) and 3 on the offensive half.",
+    whyItsConfusing:
+      "The ball can move freely, but players have invisible balance rules they have to maintain. A midfielder sprints up to join an attack without a teammate dropping back — sudden flag, nothing visibly 'happened.' This is probably the #1 misunderstood rule in boys lacrosse.",
     whatYouSee:
       "A quick whistle with no contact. Possession flips. Often happens during a clear or a fast break.",
     whatItMeans:
@@ -271,12 +313,16 @@ export const rules: Rule[] = [
       "Turnover. The other team gets the ball at the center of the field.",
     signal: "offsides",
     relatedRuleIds: ["illegal_procedure"],
+    feature: "big_picture",
   },
 
   {
     id: "crease_violation",
     title: "Crease violation",
     category: "procedural",
+    summary: "Offensive players can't step in the crease (the circle around the goal). If they do, any goal is waved off.",
+    whyItsConfusing:
+      "Goals often get waved off right after a celebration — this is usually why. The crease rule only applies to offensive players; defenders can enter the crease freely. Even being pushed into the crease is a violation.",
     whatYouSee:
       "A goal gets waved off, or a whistle near the net right after a shot or a scrum.",
     whatItMeans:
@@ -285,6 +331,7 @@ export const rules: Rule[] = [
       "No goal. The ball goes to the goalie for a free clear.",
     signal: "no_goal",
     relatedRuleIds: ["no_goal_overview", "goal_signal"],
+    feature: "big_picture",
   },
 
   {
@@ -303,8 +350,11 @@ export const rules: Rule[] = [
 
   {
     id: "failure_to_advance",
-    title: "Failure to advance",
+    title: "Failure to advance (the \"10-second / clearing\" rule)",
     category: "procedural",
+    summary: "After getting the ball, the clearing team has ~10 seconds to cross midfield and ~20 more to get it into the offensive box.",
+    whyItsConfusing:
+      "There's no visible clock for this — refs count it silently. So possession suddenly flipping while everyone looks fine feels random to parents. The ref was counting and the clear ran out of time.",
     whatYouSee:
       "A whistle during a clear, and possession flips. The defense hadn't done anything obviously wrong.",
     whatItMeans:
@@ -313,6 +363,7 @@ export const rules: Rule[] = [
       "Turnover at the spot of the ball when the time expired.",
     signal: "technical_foul",
     relatedRuleIds: ["stalling_situations", "offsides"],
+    feature: "big_picture",
   },
 
   // ──────────────────────────────────────────────────────────────
@@ -321,8 +372,11 @@ export const rules: Rule[] = [
 
   {
     id: "faceoff_situations",
-    title: "Faceoff situations",
+    title: "Faceoff violations",
     category: "faceoff",
+    summary: "Tiny technical movements — hand placement, early movement, clamp timing — determine who gets possession.",
+    whyItsConfusing:
+      "The refs are watching for things so small that parents rarely see them. Possession flips based on motions that look identical to the untrained eye. If the ref keeps resetting the faceoff, somebody moved too early or set up wrong.",
     whatYouSee:
       "The ref keeps resetting the faceoff, moving players around, or eventually awarding the ball without a faceoff at all.",
     whatItMeans:
@@ -331,6 +385,7 @@ export const rules: Rule[] = [
       "A single violation usually results in the other team getting the ball. Repeated violations by the same player can become a 30-second technical foul or a delay-of-game call that awards the ball outright.",
     signal: "technical_foul",
     relatedRuleIds: ["illegal_procedure", "stalling_situations"],
+    feature: "common_confusion",
   },
 
   // ──────────────────────────────────────────────────────────────
@@ -405,6 +460,40 @@ export const rules: Rule[] = [
   // ──────────────────────────────────────────────────────────────
   // MECHANICS (what the ref is doing)
   // ──────────────────────────────────────────────────────────────
+
+  {
+    id: "substitution_box",
+    title: "The substitution box",
+    category: "mechanics",
+    summary: "Subs happen on the fly through a box at midfield. Enter or leave the field anywhere else → penalty or turnover.",
+    whyItsConfusing:
+      "The sideline looks chaotic during a game, but it's actually tightly regulated. A substitute coming onto the field before their teammate steps off (or leaving anywhere but the box) draws a flag. It's a rule parents almost never see enforced — until suddenly it is.",
+    whatYouSee:
+      "Players run on and off constantly during live play through a small area at midfield, with no stoppage of play.",
+    whatItMeans:
+      "Every team sub has to happen through the substitution box, a short strip on the team's sideline at midfield. The outgoing player must step off before the incoming player steps on, and both must stay inside the box until the handoff. This is how teams rotate fresh middies in without any stoppage. The alternative version of subbing — during a dead ball (after a goal, on a timeout, etc.) — doesn't require the box, but on-the-fly changes always do.",
+    whatHappensNext:
+      "A bad sub is usually called as illegal procedure — a 30-second technical foul or a turnover, depending on whether it gave the team an advantage (like briefly having too many players on the field).",
+    relatedRuleIds: ["illegal_procedure", "offsides"],
+    feature: "big_picture",
+  },
+
+  {
+    id: "possession_vs_loose_ball",
+    title: "Possession vs. loose ball",
+    category: "mechanics",
+    summary: "Contact rules change depending on whether a player has control of the ball or it's loose.",
+    whyItsConfusing:
+      "The same shove can be legal (during a loose ball, with both players within ~5 yards of it) or a penalty (on an established ball carrier, or on an off-ball player). This is why refs seem to make 'inconsistent' calls — they're tracking possession state, which parents usually aren't.",
+    whatYouSee:
+      "Two similar-looking contacts get called differently. One draws a flag, another doesn't.",
+    whatItMeans:
+      "Lacrosse has three possession states, and the legal contact rules differ for each: (1) A player in possession — can be body-checked from the front or side if checks are clean. (2) A loose ball, with the contact happening within about 5 yards of it — players can body-check each other while going for the ball. (3) Off-ball, more than 5 yards from a loose ball or from the ball carrier — very little contact is allowed; this is where interference is called. Refs are constantly judging which state the play is in, and the same hit can be legal, illegal, or a penalty depending on the answer.",
+    whatHappensNext:
+      "No direct penalty for possession state itself — but it determines whether the next body check or shove gets a flag.",
+    relatedRuleIds: ["legal_body_check", "illegal_body_check", "loose_ball_push", "interference"],
+    feature: "common_confusion",
+  },
 
   {
     id: "play_on",
@@ -534,8 +623,11 @@ export const rules: Rule[] = [
 
   {
     id: "stalling_situations",
-    title: "Stalling & keep-it-in",
+    title: "Stalling, \"keep it in,\" and the late-game rule",
     category: "stalling",
+    summary: "Teams can't just hold the ball. Late in a close game the winning team is forced to keep the ball inside the offensive box.",
+    whyItsConfusing:
+      "The rule only kicks in in specific time + score situations, so it feels like it appears out of nowhere. Once it's in effect, leaving the box (even briefly) = turnover, even though the team looked like they were playing normal offense.",
     whatYouSee:
       "The offense passes the ball around without trying to attack. The ref may yell 'get it in!' or make a stalling signal.",
     whatItMeans:
@@ -544,11 +636,29 @@ export const rules: Rule[] = [
       "A stall warning itself isn't a penalty — it's a warning. But if the team leaves the box after being warned, it's a turnover. Repeated stalling can also be called as illegal procedure.",
     signal: "stalling",
     relatedRuleIds: ["failure_to_advance", "illegal_procedure"],
+    feature: "common_confusion",
   },
 
   // ──────────────────────────────────────────────────────────────
-  // OVERVIEW PAGES (used by the "by length" branch)
+  // OVERVIEW PAGES
   // ──────────────────────────────────────────────────────────────
+
+  {
+    id: "basic_penalties_overview",
+    title: "The three most common penalties",
+    category: "personal_foul",
+    summary: "If you learn slashing, pushing, and holding, you'll understand most flags thrown in a game.",
+    whyItsConfusing:
+      "Lacrosse is intentionally physical, so the line between legal play and a penalty is narrower than it looks. These three calls account for most flags, and all three come down to the same question: was the contact within what the rules allow?",
+    whatYouSee:
+      "A flag, a whistle, a player heading to the penalty box, and usually not much visible difference between that play and one that wasn't called.",
+    whatItMeans:
+      "These three penalties — slashing, pushing, and holding — are the everyday calls of a boys lacrosse game. Each has its own specific rule (tap the buttons below), but they share a common logic: the defender crossed the line from allowed physical play into controlling or hurting the opponent.",
+    whatHappensNext:
+      "Slashing: 1-minute personal foul. Push and hold: 30 seconds if the fouled player had the ball, otherwise a turnover.",
+    relatedRuleIds: ["slashing", "push", "hold", "loose_ball_push", "illegal_body_check"],
+    feature: "big_picture",
+  },
 
   {
     id: "technical_foul_overview",

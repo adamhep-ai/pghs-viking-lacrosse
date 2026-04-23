@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { clearHistory, popHistory } from "../lib/history";
 
-type Props = {
+type BackProps = {
   variant?: "default" | "ghost";
   label?: string;
 };
 
-export function BackButton({ variant = "default", label = "← Back" }: Props) {
+export function BackButton({ variant = "default", label = "← Back" }: BackProps) {
   const navigate = useNavigate();
 
   const onClick = () => {
@@ -28,18 +28,23 @@ export function BackButton({ variant = "default", label = "← Back" }: Props) {
   );
 }
 
-export function StartOverButton() {
+type StartOverProps = {
+  label?: string;
+  to?: string;
+};
+
+export function StartOverButton({ label = "Start over", to = "/" }: StartOverProps) {
   const navigate = useNavigate();
   return (
     <button
       type="button"
       onClick={() => {
         clearHistory();
-        navigate("/", { replace: true });
+        navigate(to, { replace: true });
       }}
       className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
     >
-      Start over
+      {label}
     </button>
   );
 }

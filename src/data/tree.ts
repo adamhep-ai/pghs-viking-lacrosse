@@ -7,9 +7,7 @@ export type TreeButton = {
   label: string;
   goesTo:
     | { type: "node"; nodeId: string }
-    | { type: "rule"; ruleId: string }
-    | { type: "signal_grid" }
-    | { type: "lifeline" };
+    | { type: "rule"; ruleId: string };
 };
 
 export type TreeNode = {
@@ -29,7 +27,6 @@ export const tree: Record<string, TreeNode> = {
     question: "What did you just see?",
     buttons: [
       { label: "A player went to the penalty box", goesTo: { type: "node", nodeId: "penalty_box" } },
-      { label: "The ref made a signal I don't recognize", goesTo: { type: "signal_grid" } },
       { label: "A flag is on the ground", goesTo: { type: "node", nodeId: "flag_on_ground" } },
       { label: "Something happened at the goal", goesTo: { type: "node", nodeId: "goal_event" } },
       { label: "The ball changed teams but nobody went to the box", goesTo: { type: "node", nodeId: "ball_changed_teams" } },
@@ -37,7 +34,6 @@ export const tree: Record<string, TreeNode> = {
       { label: "The faceoff keeps getting reset", goesTo: { type: "rule", ruleId: "faceoff_situations" } },
       { label: "A stick broke or a helmet came off", goesTo: { type: "node", nodeId: "equipment_event" } },
       { label: "The team is just holding the ball", goesTo: { type: "rule", ruleId: "stalling_situations" } },
-      { label: "I'm not sure what I saw — show me the most common calls", goesTo: { type: "lifeline" } },
     ],
   },
 
@@ -129,7 +125,7 @@ export const tree: Record<string, TreeNode> = {
     buttons: [
       { label: "The goal counted", goesTo: { type: "rule", ruleId: "goal_signal" } },
       { label: "The goal was waved off", goesTo: { type: "node", nodeId: "no_goal_reason" } },
-      { label: "No one scored, but the ref made a signal", goesTo: { type: "signal_grid" } },
+      { label: "I'm not sure what happened", goesTo: { type: "rule", ruleId: "no_goal_overview" } },
     ],
   },
 

@@ -20,6 +20,7 @@ export function Header() {
         </Link>
 
         <nav className="ml-auto flex items-center gap-1">
+          <HeaderLink to="/t/root">Finder</HeaderLink>
           <HeaderLink to="/basics">Basics</HeaderLink>
           <HeaderLink to="/rules">All Rules</HeaderLink>
         </nav>
