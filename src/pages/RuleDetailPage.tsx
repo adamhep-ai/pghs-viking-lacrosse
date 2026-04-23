@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { rules } from "../data/rules";
 import { RuleExplanation } from "../components/RuleExplanation";
-import { BackButton, StartOverButton } from "../components/BackButton";
+import { BackButton } from "../components/BackButton";
 import { pushHistory } from "../lib/history";
 
 export function RuleDetailPage() {
@@ -43,7 +43,6 @@ export function RuleDetailPage() {
 
       <div className="flex flex-wrap gap-2 pt-4 border-t border-team-grey-light">
         <BackButton />
-        <StartOverButton />
         <Link
           to="/rules"
           className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"

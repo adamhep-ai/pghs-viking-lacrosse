@@ -15,6 +15,10 @@ function read(): string[] {
   }
 }
 
+export function readHistory(): readonly string[] {
+  return read();
+}
+
 function write(h: string[]) {
   try {
     sessionStorage.setItem(KEY, JSON.stringify(h));

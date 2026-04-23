@@ -2,10 +2,7 @@ import { Link } from "react-router-dom";
 import type { Rule, RuleCategory } from "../data/rules";
 import { rules } from "../data/rules";
 
-type Props = {
-  rule: Rule;
-  compact?: boolean; // used inline on /rules list
-};
+type Props = { rule: Rule };
 
 const OVERVIEW_IDS = new Set([
   "technical_foul_overview",
@@ -25,7 +22,7 @@ const CATEGORY_LABEL: Record<RuleCategory, string> = {
   stalling: "Stalling",
 };
 
-export function RuleExplanation({ rule, compact = false }: Props) {
+export function RuleExplanation({ rule }: Props) {
   const isOverview = OVERVIEW_IDS.has(rule.id);
   const related = (rule.relatedRuleIds ?? [])
     .map((id) => rules.find((r) => r.id === id))
@@ -33,32 +30,21 @@ export function RuleExplanation({ rule, compact = false }: Props) {
 
   return (
     <article className="space-y-5">
-      {!compact && (
-        <header className="space-y-3">
-          <div>
-            <span className="inline-block text-xs font-semibold uppercase tracking-wide text-team-blue bg-team-blue-light px-2 py-1 rounded-full">
-              {CATEGORY_LABEL[rule.category]}
-            </span>
-            <h1 className="mt-2 text-3xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
-              {rule.title}
-            </h1>
-          </div>
-          {rule.summary && (
-            <p className="text-lg text-gray-800 leading-snug">{rule.summary}</p>
-          )}
-        </header>
-      )}
-
-      {compact && (
-        <div className="space-y-1">
-          <h3 className="text-xl font-semibold text-team-blue-dark">{rule.title}</h3>
-          {rule.summary && (
-            <p className="text-sm text-team-grey leading-snug">{rule.summary}</p>
-          )}
+      <header className="space-y-3">
+        <div>
+          <span className="inline-block text-xs font-semibold uppercase tracking-wide text-team-blue bg-team-blue-light px-2 py-1 rounded-full">
+            {CATEGORY_LABEL[rule.category]}
+          </span>
+          <h1 className="mt-2 text-3xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
+            {rule.title}
+          </h1>
         </div>
-      )}
+        {rule.summary && (
+          <p className="text-lg text-gray-800 leading-snug">{rule.summary}</p>
+        )}
+      </header>
 
-      {rule.whyItsConfusing && !compact && (
+      {rule.whyItsConfusing && (
         <div className="rounded-lg bg-amber-50 border border-amber-200 p-4">
           <h4 className="text-sm font-semibold uppercase tracking-wide text-amber-800 mb-1">
             Why it's confusing

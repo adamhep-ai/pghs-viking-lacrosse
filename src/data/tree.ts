@@ -125,7 +125,7 @@ export const tree: Record<string, TreeNode> = {
     buttons: [
       { label: "The goal counted", goesTo: { type: "rule", ruleId: "goal_signal" } },
       { label: "The goal was waved off", goesTo: { type: "node", nodeId: "no_goal_reason" } },
-      { label: "I'm not sure what happened", goesTo: { type: "rule", ruleId: "no_goal_overview" } },
+      { label: "I saw a shot but I'm not sure if it counted", goesTo: { type: "rule", ruleId: "no_goal_overview" } },
     ],
   },
 

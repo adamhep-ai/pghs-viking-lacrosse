@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { rules } from "../data/rules";
+import { rules, type Rule } from "../data/rules";
 import { pushHistory } from "../lib/history";
 import { TEAM_NAME } from "../config";
 
-// Authoritative ordering for the homepage cards. The order matches the
-// user-facing priority: the 5 "big picture" rules that let a parent follow
-// any game, then the 7 other calls parents frequently ask about.
+// Authoritative homepage ordering. The first list is the 5 "big picture"
+// rules that unlock most games; the second is 8 other calls parents
+// frequently ask about.
 const BIG_PICTURE_IDS = [
   "offsides",
   "failure_to_advance",
@@ -14,6 +14,11 @@ const BIG_PICTURE_IDS = [
   "basic_penalties_overview",
   "substitution_box",
 ];
+
+// Rule IDs that should render full-width on sm+ inside the big-picture grid.
+// Currently just the combined slash/push/hold overview, which benefits from
+// extra visual weight.
+const WIDE_CARD_IDS = new Set(["basic_penalties_overview"]);
 
 const COMMON_CONFUSION_IDS = [
   "illegal_body_check",
@@ -32,8 +37,8 @@ export function HomePage() {
     pushHistory(location.pathname);
   }, [location.pathname]);
 
-  const bigPicture = BIG_PICTURE_IDS.map((id) => rules.find((r) => r.id === id)!).filter(Boolean);
-  const otherCalls = COMMON_CONFUSION_IDS.map((id) => rules.find((r) => r.id === id)!).filter(Boolean);
+  const bigPicture = resolveRules(BIG_PICTURE_IDS);
+  const otherCalls = resolveRules(COMMON_CONFUSION_IDS);
 
   return (
     <div className="space-y-10">
@@ -57,16 +62,14 @@ export function HomePage() {
           {bigPicture.map((rule, i) => (
             <li
               key={rule.id}
-              // Card #4 (basic penalties overview) spans full width on sm+ to
-              // give the combined slash/push/hold card extra visual weight.
-              className={i === 3 ? "sm:col-span-2" : ""}
+              className={WIDE_CARD_IDS.has(rule.id) ? "sm:col-span-2" : ""}
             >
               <Link
                 to={`/r/${rule.id}`}
                 className="block h-full rounded-xl border-2 border-team-blue-light bg-white hover:border-team-blue hover:bg-team-blue-light/40 active:scale-[0.995] p-5 transition-colors"
               >
                 <div className="flex items-baseline gap-2 mb-2">
-                  <span className="inline-block w-6 h-6 rounded-full bg-team-blue text-white text-xs font-bold flex items-center justify-center">
+                  <span className="w-6 h-6 rounded-full bg-team-blue text-white text-xs font-bold flex items-center justify-center shrink-0">
                     {i + 1}
                   </span>
                   <h3 className="text-lg font-bold text-team-blue-dark leading-snug">
@@ -88,7 +91,25 @@ export function HomePage() {
         </ul>
       </section>
 
-      {/* OTHER COMMON CONFUSIONS — 7 smaller cards */}
+      {/* FINDER CTA — live-game emergency path, visually prominent */}
+      <section aria-label="Finder shortcut">
+        <Link
+          to="/t/root"
+          className="flex items-center justify-between gap-4 rounded-xl bg-team-blue text-white p-5 shadow-sm hover:bg-team-blue-dark active:scale-[0.995] transition-colors"
+        >
+          <div>
+            <div className="text-lg font-bold">
+              Something just happened — help me find it
+            </div>
+            <div className="text-sm text-team-blue-light/90 mt-0.5">
+              Walk through a few quick questions to identify the call you saw.
+            </div>
+          </div>
+          <span className="text-2xl shrink-0" aria-hidden>→</span>
+        </Link>
+      </section>
+
+      {/* OTHER COMMON CONFUSIONS — 8 smaller cards */}
       <section aria-labelledby="other-calls-heading" className="space-y-4">
         <header>
           <h2
@@ -121,31 +142,15 @@ export function HomePage() {
         </ul>
       </section>
 
-      {/* SECONDARY TOOLS */}
-      <section aria-labelledby="more-heading" className="space-y-4">
+      {/* TERTIARY — leisure-reading paths */}
+      <section aria-labelledby="more-heading" className="space-y-3">
         <h2
           id="more-heading"
           className="text-lg font-semibold text-team-blue-dark"
         >
-          Other ways to find what you need
+          More to read
         </h2>
         <ul className="space-y-2" role="list">
-          <li>
-            <Link
-              to="/t/root"
-              className="flex items-start justify-between gap-3 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue p-4"
-            >
-              <div>
-                <div className="font-medium text-team-blue-dark">
-                  Something just happened — help me find it
-                </div>
-                <div className="text-sm text-team-grey mt-0.5">
-                  Walk through a few questions to narrow down what you saw.
-                </div>
-              </div>
-              <span className="text-team-blue shrink-0" aria-hidden>→</span>
-            </Link>
-          </li>
           <li>
             <Link
               to="/basics"
@@ -203,6 +208,21 @@ function Hero() {
       </p>
     </div>
   );
+}
+
+// Resolve an ordered list of rule IDs into Rule objects, warning if any are
+// missing (the smoke test should catch this, but fail loud in the browser too).
+function resolveRules(ids: string[]): Rule[] {
+  const out: Rule[] = [];
+  for (const id of ids) {
+    const rule = rules.find((r) => r.id === id);
+    if (!rule) {
+      console.warn(`HomePage: rule "${id}" not found in rules data`);
+      continue;
+    }
+    out.push(rule);
+  }
+  return out;
 }
 
 function firstSentence(text: string): string {
