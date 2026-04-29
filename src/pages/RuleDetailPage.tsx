@@ -28,7 +28,7 @@ export function RuleDetailPage() {
           <BackButton />
           <Link
             to="/rules"
-            className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
+            className="inline-flex items-center justify-center px-4 py-2.5 min-h-[44px] rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
           >
             Browse all rules →
           </Link>

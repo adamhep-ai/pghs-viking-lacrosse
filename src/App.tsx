@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="min-h-full flex flex-col bg-white">
       <Header />
-      <main className="flex-1 mx-auto w-full max-w-3xl px-4 py-6">
+      <main className="flex-1 mx-auto w-full max-w-3xl px-4 py-5 sm:py-6">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/t" element={<TreePage />} />

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { roster, POSITION_LABEL, type Player, type Position } from "../data/roster";
 import { pushHistory } from "../lib/history";
-import { SEASON_TAG, TEAM_NAME } from "../config";
+import { SEASON_TAG } from "../config";
 
 type SortMode = "number" | "position" | "grade";
 
@@ -35,28 +35,19 @@ export function RosterPage() {
 
   return (
     <div className="space-y-8">
-      <header className="flex items-center gap-4">
-        <img
-          src="/viking-badge.png"
-          alt={`${TEAM_NAME} logo`}
-          className="h-16 w-16 shrink-0 rounded-full shadow-sm"
-          width={64}
-          height={64}
-        />
-        <div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
-            {SEASON_TAG} Roster
-          </h1>
-          <p className="mt-1 text-team-grey">
-            {roster.length} players.{" "}
-            <Link
-              to="/basics#positions"
-              className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
-            >
-              What do the positions mean?
-            </Link>
-          </p>
-        </div>
+      <header className="space-y-1">
+        <h1 className="text-2xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
+          {SEASON_TAG} Roster
+        </h1>
+        <p className="text-sm sm:text-base text-team-grey">
+          {roster.length} players.{" "}
+          <Link
+            to="/basics#positions"
+            className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
+          >
+            What do the positions mean?
+          </Link>
+        </p>
       </header>
 
       <div

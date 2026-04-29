@@ -87,7 +87,7 @@ export function RulesPage() {
               <li key={id}>
                 <a
                   href={`#${id}`}
-                  className="inline-block px-3 py-1 rounded-full bg-white border border-team-grey-light text-team-blue-dark hover:bg-team-blue-light hover:border-team-blue"
+                  className="inline-flex items-center px-3 py-2 min-h-[36px] rounded-full bg-white border border-team-grey-light text-team-blue-dark hover:bg-team-blue-light hover:border-team-blue"
                 >
                   {label}
                 </a>

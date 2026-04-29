@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import { basics } from "../data/basics";
 import { renderMarkdown } from "../lib/markdown";
 import { pushHistory } from "../lib/history";
-import { TEAM_NAME } from "../config";
 
 export function BasicsPage() {
   const location = useLocation();
@@ -19,34 +18,25 @@ export function BasicsPage() {
 
   return (
     <article className="space-y-10">
-      <header className="flex items-center gap-4">
-        <img
-          src="/viking-badge.png"
-          alt={`${TEAM_NAME} logo`}
-          className="h-16 w-16 shrink-0 rounded-full shadow-sm"
-          width={64}
-          height={64}
-        />
-        <div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
-            Lacrosse, for parents
-          </h1>
-          <p className="mt-1 text-team-grey">
-            A one-read intro to how the game works.
-          </p>
-        </div>
+      <header className="space-y-1">
+        <h1 className="text-2xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
+          Lacrosse, for parents
+        </h1>
+        <p className="text-sm sm:text-base text-team-grey">
+          A one-read intro to how the game works.
+        </p>
       </header>
 
-      <nav aria-label="On this page" className="rounded-lg border border-team-grey-light p-4 bg-team-grey-light/40">
-        <p className="text-sm font-semibold uppercase tracking-wide text-team-grey mb-2">
+      <nav aria-label="On this page" className="rounded-lg border border-team-grey-light p-3 sm:p-4 bg-team-grey-light/40">
+        <p className="text-xs sm:text-sm font-semibold uppercase tracking-wide text-team-grey mb-1 sm:mb-2 px-1">
           On this page
         </p>
-        <ul className="space-y-1 text-sm">
+        <ul role="list">
           {basics.map((section) => (
             <li key={section.id}>
               <a
                 href={`#${section.id}`}
-                className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
+                className="block px-1 py-2 text-team-blue hover:text-team-blue-dark underline underline-offset-2"
               >
                 {section.heading}
               </a>
