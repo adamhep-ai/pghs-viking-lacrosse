@@ -4,9 +4,18 @@ import { roster, POSITION_LABEL, type Player, type Position } from "../data/rost
 import { pushHistory } from "../lib/history";
 import { SEASON_TAG, TEAM_NAME } from "../config";
 
-type SortMode = "number" | "position";
+type SortMode = "number" | "position" | "grade";
 
 const POSITION_ORDER: Position[] = ["A", "M", "D", "G"];
+
+const GRADE_ORDER = [12, 11, 10, 9] as const;
+
+const GRADE_LABEL: Record<number, string> = {
+  12: "Seniors",
+  11: "Juniors",
+  10: "Sophomores",
+  9: "Freshmen",
+};
 
 export function RosterPage() {
   const location = useLocation();
@@ -18,6 +27,7 @@ export function RosterPage() {
   }, [location.pathname]);
 
   const grouped = useMemo(() => groupByPosition(roster), []);
+  const groupedByGrade = useMemo(() => groupByGrade(roster), []);
   const byNumber = useMemo(
     () => [...roster].sort((a, b) => a.number - b.number || a.name.localeCompare(b.name)),
     []
@@ -60,11 +70,14 @@ export function RosterPage() {
         <SortTab active={sort === "position"} onClick={() => setSort("position")}>
           By position
         </SortTab>
+        <SortTab active={sort === "grade"} onClick={() => setSort("grade")}>
+          By grade
+        </SortTab>
       </div>
 
-      {sort === "number" ? (
-        <PlayerGrid players={byNumber} />
-      ) : (
+      {sort === "number" && <PlayerGrid players={byNumber} />}
+
+      {sort === "position" && (
         <div className="space-y-8">
           {POSITION_ORDER.map((pos) => {
             const list = grouped[pos];
@@ -73,6 +86,26 @@ export function RosterPage() {
               <section key={pos} className="space-y-3">
                 <h2 className="text-2xl font-bold text-team-blue-dark">
                   {POSITION_LABEL[pos]}{" "}
+                  <span className="text-team-grey font-medium text-lg">
+                    ({list.length})
+                  </span>
+                </h2>
+                <PlayerGrid players={list} />
+              </section>
+            );
+          })}
+        </div>
+      )}
+
+      {sort === "grade" && (
+        <div className="space-y-8">
+          {GRADE_ORDER.map((grade) => {
+            const list = groupedByGrade[grade];
+            if (!list || list.length === 0) return null;
+            return (
+              <section key={grade} className="space-y-3">
+                <h2 className="text-2xl font-bold text-team-blue-dark">
+                  {GRADE_LABEL[grade]}{" "}
                   <span className="text-team-grey font-medium text-lg">
                     ({list.length})
                   </span>
@@ -149,6 +182,20 @@ function groupByPosition(list: Player[]): Record<Position, Player[]> {
   for (const p of list) out[p.position].push(p);
   for (const pos of POSITION_ORDER) {
     out[pos].sort((a, b) => a.number - b.number || a.name.localeCompare(b.name));
+  }
+  return out;
+}
+
+function groupByGrade(list: Player[]): Record<number, Player[]> {
+  const out: Record<number, Player[]> = {};
+  for (const p of list) {
+    if (!out[p.grade]) out[p.grade] = [];
+    out[p.grade].push(p);
+  }
+  for (const grade of Object.keys(out)) {
+    out[Number(grade)].sort(
+      (a, b) => a.number - b.number || a.name.localeCompare(b.name)
+    );
   }
   return out;
 }

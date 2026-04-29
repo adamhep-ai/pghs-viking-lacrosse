@@ -19,8 +19,7 @@ export const POSITION_LABEL: Record<Position, string> = {
   G: "Goalie",
 };
 
-// Sorted by jersey number, matching the printed roster. Two players share
-// #55 (Matthew Anderson and Hank Fondren) — that's faithful to the source.
+// Sorted by jersey number, matching the printed roster.
 export const roster: Player[] = [
   { number: 0, name: "Liam Stott", position: "A", grade: 12 },
   { number: 2, name: "Travis McFadden", position: "M", grade: 12 },
@@ -72,7 +71,7 @@ export const roster: Player[] = [
   { number: 49, name: "River Reeve", position: "M", grade: 11 },
   { number: 50, name: "Spencer Schultz", position: "M", grade: 11 },
   { number: 51, name: "Cade Whatcott", position: "M", grade: 10 },
-  { number: 55, name: "Matthew Anderson", position: "D", grade: 9 },
+  { number: 52, name: "Matthew Anderson", position: "D", grade: 9 },
   { number: 55, name: "Hank Fondren", position: "A", grade: 10 },
   { number: 60, name: "Archer Staley", position: "M", grade: 10 },
 ];

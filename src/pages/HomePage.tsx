@@ -207,20 +207,12 @@ export function HomePage() {
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center text-center pt-4 pb-2">
-      <img
-        src="/viking-badge.png"
-        alt={`${TEAM_NAME} logo`}
-        className="h-28 w-28 mb-3 rounded-full shadow-sm"
-        width={112}
-        height={112}
-      />
-      <h1 className="text-3xl sm:text-4xl font-extrabold text-team-blue-dark leading-tight">
+    <div className="pt-1">
+      <h1 className="text-2xl sm:text-4xl font-extrabold text-team-blue-dark leading-tight">
         The confusing rules, explained
       </h1>
-      <p className="mt-2 text-team-grey max-w-md">
-        A sideline guide for parents of {TEAM_NAME} boys lacrosse. Written for
-        the rules most parents ask about.
+      <p className="mt-1 text-sm sm:text-base text-team-grey">
+        A sideline guide for parents of {TEAM_NAME} boys lacrosse.
       </p>
     </div>
   );
