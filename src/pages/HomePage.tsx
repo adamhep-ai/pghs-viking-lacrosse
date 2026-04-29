@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 import { rules, type Rule } from "../data/rules";
 import { pushHistory } from "../lib/history";
 import { TEAM_NAME } from "../config";
@@ -64,7 +65,7 @@ export function HomePage() {
               key={rule.id}
               className={WIDE_CARD_IDS.has(rule.id) ? "sm:col-span-2" : ""}
             >
-              <Link
+              <AppLink
                 to={`/r/${rule.id}`}
                 className="block h-full rounded-xl border-2 border-team-blue-light bg-white hover:border-team-blue hover:bg-team-blue-light/40 active:scale-[0.995] p-5 transition-colors"
               >
@@ -85,7 +86,7 @@ export function HomePage() {
                     <span className="not-italic">{firstSentence(rule.whyItsConfusing)}</span>
                   </p>
                 )}
-              </Link>
+              </AppLink>
             </li>
           ))}
         </ul>
@@ -93,7 +94,7 @@ export function HomePage() {
 
       {/* FINDER CTA — live-game emergency path, visually prominent */}
       <section aria-label="Finder shortcut">
-        <Link
+        <AppLink
           to="/t/root"
           className="flex items-center justify-between gap-4 rounded-xl bg-team-blue text-white p-5 shadow-sm hover:bg-team-blue-dark active:scale-[0.995] transition-colors"
         >
@@ -106,7 +107,7 @@ export function HomePage() {
             </div>
           </div>
           <span className="text-2xl shrink-0" aria-hidden>→</span>
-        </Link>
+        </AppLink>
       </section>
 
       {/* OTHER COMMON CONFUSIONS — 8 smaller cards */}
@@ -126,7 +127,7 @@ export function HomePage() {
         <ul className="grid sm:grid-cols-2 gap-3" role="list">
           {otherCalls.map((rule) => (
             <li key={rule.id}>
-              <Link
+              <AppLink
                 to={`/r/${rule.id}`}
                 className="block h-full rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue active:scale-[0.995] p-4"
               >
@@ -136,7 +137,7 @@ export function HomePage() {
                 {rule.summary && (
                   <p className="mt-1 text-sm text-team-grey leading-snug">{rule.summary}</p>
                 )}
-              </Link>
+              </AppLink>
             </li>
           ))}
         </ul>
@@ -152,7 +153,7 @@ export function HomePage() {
         </h2>
         <ul className="space-y-2" role="list">
           <li>
-            <Link
+            <AppLink
               to="/basics"
               className="flex items-start justify-between gap-3 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue p-4"
             >
@@ -165,10 +166,10 @@ export function HomePage() {
                 </div>
               </div>
               <span className="text-team-blue shrink-0" aria-hidden>→</span>
-            </Link>
+            </AppLink>
           </li>
           <li>
-            <Link
+            <AppLink
               to="/rules"
               className="flex items-start justify-between gap-3 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue p-4"
             >
@@ -181,10 +182,10 @@ export function HomePage() {
                 </div>
               </div>
               <span className="text-team-blue shrink-0" aria-hidden>→</span>
-            </Link>
+            </AppLink>
           </li>
           <li>
-            <Link
+            <AppLink
               to="/roster"
               className="flex items-start justify-between gap-3 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue p-4"
             >
@@ -197,7 +198,7 @@ export function HomePage() {
                 </div>
               </div>
               <span className="text-team-blue shrink-0" aria-hidden>→</span>
-            </Link>
+            </AppLink>
           </li>
         </ul>
       </section>

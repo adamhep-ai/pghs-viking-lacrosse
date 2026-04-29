@@ -1,4 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { AppLink } from "./AppLink";
 import type { TreeNode as TreeNodeData } from "../data/tree";
 
 type Props = { node: TreeNodeData };
@@ -45,12 +46,12 @@ export function TreeNode({ node }: Props) {
       </ul>
 
       <div className="pt-2 text-sm text-team-grey">
-        <Link
+        <AppLink
           to="/"
           className="underline underline-offset-2 hover:text-team-blue-dark"
         >
           Not sure? Go back to the rule cards →
-        </Link>
+        </AppLink>
       </div>
     </section>
   );

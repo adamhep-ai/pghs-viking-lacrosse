@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 import { Fragment, type ReactNode } from "react";
 
 // Tiny markdown renderer for basics body strings.
@@ -42,13 +42,13 @@ function renderInline(text: string): ReactNode {
       const [, label, href] = link;
       if (href.startsWith("/") || href.startsWith("#")) {
         return (
-          <Link
+          <AppLink
             key={i}
             to={href}
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             {label}
-          </Link>
+          </AppLink>
         );
       }
       return (

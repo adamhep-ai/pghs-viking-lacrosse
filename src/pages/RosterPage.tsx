@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 import { roster, POSITION_LABEL, type Player, type Position } from "../data/roster";
 import { pushHistory } from "../lib/history";
 import { SEASON_TAG } from "../config";
@@ -41,12 +42,12 @@ export function RosterPage() {
         </h1>
         <p className="text-sm sm:text-base text-team-grey">
           {roster.length} players.{" "}
-          <Link
+          <AppLink
             to="/basics#positions"
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             What do the positions mean?
-          </Link>
+          </AppLink>
         </p>
       </header>
 

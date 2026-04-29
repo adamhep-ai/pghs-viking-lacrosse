@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 
 export function NotFoundPage() {
   return (
@@ -7,12 +7,12 @@ export function NotFoundPage() {
       <p className="text-team-grey">
         That link didn't resolve to anything we know.
       </p>
-      <Link
+      <AppLink
         to="/"
         className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium bg-team-blue text-white hover:bg-team-blue-dark"
       >
         Start over
-      </Link>
+      </AppLink>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { AppLink } from "./AppLink";
 import type { Rule, RuleCategory } from "../data/rules";
 import { rules } from "../data/rules";
 
@@ -71,9 +71,8 @@ export function RuleExplanation({ rule }: Props) {
           <ul className="space-y-2" role="list">
             {related.map((r) => (
               <li key={r.id}>
-                <Link
+                <AppLink
                   to={`/r/${r.id}`}
-                  replace
                   className="block rounded-md px-3 py-2 border border-team-grey-light hover:bg-team-blue-light hover:border-team-blue"
                 >
                   <span className="font-medium text-team-blue-dark">{r.title}</span>
@@ -82,7 +81,7 @@ export function RuleExplanation({ rule }: Props) {
                       {r.summary ?? r.whatYouSee}
                     </span>
                   )}
-                </Link>
+                </AppLink>
               </li>
             ))}
           </ul>

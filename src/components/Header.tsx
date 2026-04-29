@@ -1,10 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { AppLink, AppNavLink } from "./AppLink";
 
 export function Header() {
   return (
     <header className="sticky top-0 z-10 bg-white border-b border-team-grey-light">
       <div className="mx-auto max-w-3xl px-3 sm:px-4 py-2 flex items-center gap-2 sm:gap-3">
-        <Link
+        <AppLink
           to="/"
           className="flex items-center gap-2 text-team-blue font-bold shrink-0"
           aria-label="Home"
@@ -17,7 +17,7 @@ export function Header() {
             height={36}
           />
           <span className="hidden sm:inline">Viking Lacrosse</span>
-        </Link>
+        </AppLink>
 
         <nav className="ml-auto flex items-center gap-0.5 sm:gap-1">
           <HeaderLink to="/roster">Roster</HeaderLink>
@@ -32,7 +32,7 @@ export function Header() {
 
 function HeaderLink({ to, children }: { to: string; children: React.ReactNode }) {
   return (
-    <NavLink
+    <AppNavLink
       to={to}
       className={({ isActive }) =>
         `px-2.5 sm:px-3 py-2.5 min-h-[44px] inline-flex items-center rounded-md text-sm font-medium ${
@@ -43,6 +43,6 @@ function HeaderLink({ to, children }: { to: string; children: React.ReactNode })
       }
     >
       {children}
-    </NavLink>
+    </AppNavLink>
   );
 }

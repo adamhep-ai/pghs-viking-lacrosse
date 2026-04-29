@@ -1,5 +1,6 @@
 import { useEffect, useMemo } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 import { rules, type Rule, type RuleCategory } from "../data/rules";
 import { pushHistory } from "../lib/history";
 
@@ -65,12 +66,12 @@ export function RulesPage() {
         </h1>
         <p className="mt-2 text-team-grey">
           Every rule, grouped by category.{" "}
-          <Link
+          <AppLink
             to="/"
             className="text-team-blue hover:text-team-blue-dark underline underline-offset-2"
           >
             Start with the confusing-rule cards
-          </Link>{" "}
+          </AppLink>{" "}
           if you don't know where to look.
         </p>
       </header>
@@ -128,7 +129,7 @@ function RuleListItem({ rule }: { rule: Rule }) {
     : null;
 
   return (
-    <Link
+    <AppLink
       to={`/r/${rule.id}`}
       id={rule.id}
       className="block scroll-mt-24 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue active:scale-[0.995] p-4"
@@ -145,7 +146,7 @@ function RuleListItem({ rule }: { rule: Rule }) {
           <span className="not-italic">{confusionTeaser}</span>
         </p>
       )}
-    </Link>
+    </AppLink>
   );
 }
 

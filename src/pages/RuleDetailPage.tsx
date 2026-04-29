@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
+import { AppLink } from "../components/AppLink";
 import { rules } from "../data/rules";
 import { RuleExplanation } from "../components/RuleExplanation";
 import { BackButton } from "../components/BackButton";
@@ -26,12 +27,12 @@ export function RuleDetailPage() {
         </p>
         <div className="flex gap-2">
           <BackButton />
-          <Link
+          <AppLink
             to="/rules"
             className="inline-flex items-center justify-center px-4 py-2.5 min-h-[44px] rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
           >
             Browse all rules →
-          </Link>
+          </AppLink>
         </div>
       </div>
     );
@@ -43,12 +44,12 @@ export function RuleDetailPage() {
 
       <div className="flex flex-wrap gap-2 pt-4 border-t border-team-grey-light">
         <BackButton />
-        <Link
+        <AppLink
           to="/rules"
           className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-team-grey hover:text-team-blue-dark hover:bg-team-grey-light"
         >
           Browse all rules →
-        </Link>
+        </AppLink>
       </div>
     </div>
   );
