@@ -17,7 +17,7 @@ export const basics: BasicsSection[] = [
 
 Key markings to know:
 
-- **The crease** is the circle around each goal. Offensive players are not allowed to step inside it. Only the goalie and defenders can be in there during play.
+- **The crease** is the circle around each goal. Offensive players are not allowed to step inside it. The goalie lives there; defenders can pass through, but a new 2026 rule means a non-goalie defender can't step in their own crease to block a shot or act like a backup goalkeeper without drawing a personal foul.
 - **The midline** splits the field in half and is used to enforce the offsides rule: each team must keep a minimum number of players on each half of the field.
 - **The restraining lines** are the lines 20 yards up from each end line. They bound the offensive and defensive zones for certain situations, including faceoffs.
 - **The box** at midfield is the substitution area — players run in and out of the game through here on the fly.`,

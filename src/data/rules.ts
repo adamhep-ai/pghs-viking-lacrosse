@@ -146,7 +146,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "A check or hit that clearly made contact with an opponent's head or neck area. Often causes the player to stay down.",
     whatItMeans:
-      "NFHS rules treat any forcible contact to the head or neck as one of the most serious fouls in the game. This applies whether the contact was with a stick, shoulder, or any other part of the body, and it applies even if the initial target was lower on the body.", // VERIFY — exact language has been updated recently
+      "NFHS rules treat forcible contact to the head or neck as one of the most serious fouls in the game. This applies whether the contact was with a stick, shoulder, or any other part of the body, and it applies even if the initial target was lower on the body. The rules now explicitly distinguish intentional from unintentional head/neck contact: intentional contact draws the longest non-releasable penalty and ejection is more likely, while unintentional contact is still a flag but is graded less harshly.",
     whatHappensNext:
       "2 or 3 minutes in the penalty box, and the penalty is typically non-releasable — the player serves the full time even if the other team scores. Ejection is possible in severe cases.",
     signal: "illegal_body_check",
@@ -213,7 +213,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "A whistle near a battle for position, often between a defender and an offensive player.",
     whatItMeans:
-      "Holding is when a defender uses their hands, arms, or stick to restrain an opponent — grabbing a jersey, wrapping an arm, or clamping a stick onto an opponent's body to slow them down. Defenders are allowed to use their body to hold position, but they can't grab.",
+      "Holding is when a defender uses their hands, arms, or stick to restrain an opponent — grabbing a jersey, wrapping an arm, or clamping a stick onto an opponent's body. The 2026 rules also explicitly call hooking, lifting, or pinning an opponent's body with the crosse a hold. Defenders are allowed to use their body to hold position, but they can't use leverage from their hands or stick to slow an opponent down.",
     whatHappensNext:
       "30-second penalty if the player being held had the ball, otherwise usually a turnover.",
     signal: "hold",
@@ -322,13 +322,13 @@ export const rules: Rule[] = [
     category: "procedural",
     summary: "Offensive players can't step in the crease (the circle around the goal). If they do, any goal is waved off.",
     whyItsConfusing:
-      "Goals often get waved off right after a celebration — this is usually why. The crease rule only applies to offensive players; defenders can enter the crease freely. Even being pushed into the crease is a violation.",
+      "Goals often get waved off right after a celebration — this is usually why. The crease rule applies mainly to offensive players, but a new 2026 rule also restricts defenders from stepping in to act like a backup goalie. Even being pushed into the crease counts as an offensive violation.",
     whatYouSee:
       "A goal gets waved off, or a whistle near the net right after a shot or a scrum.",
     whatItMeans:
-      "Only the goalie is allowed inside the circle around the goal (the crease). If an offensive player steps in the crease — even with just a foot — any shot they take or any goal their team scores on that play is waved off. It doesn't matter whether they were pushed in.",
+      "The crease is the circle around the goal. Offensive players are never allowed inside it — even with just a foot, even if a defender pushed them in. Any shot they take from inside the crease, or any goal their team scores while they're in there, is waved off. Defenders can pass through the crease, but a new 2026 rule prohibits a non-goalie defender from stepping into their own crease 'with the perceived intent of blocking a shot or acting as a goalkeeper' — that's a non-releasable personal foul for illegal equipment, because only a properly equipped goalie should be defending shots from inside the crease.",
     whatHappensNext:
-      "No goal. The ball goes to the goalie for a free clear.",
+      "On an offensive crease violation: no goal, ball goes to the goalie for a free clear. On the new defender-in-crease foul: the defender serves a non-releasable personal foul (length depends on severity) and the offense gets the ball.",
     signal: "no_goal",
     relatedRuleIds: ["no_goal_overview", "goal_signal"],
     feature: "big_picture",
@@ -399,9 +399,9 @@ export const rules: Rule[] = [
     whatYouSee:
       "A player's helmet flies off during play. The ref blows the whistle right away.",
     whatItMeans:
-      "Player safety rules require an immediate whistle when a helmet comes off, regardless of how it happened. The player whose helmet came off has to leave the field and can't return until the next dead ball. This is a safety rule, not a penalty — no one gets a penalty just because a helmet came off.",
+      "Any time a helmet comes off, play stops immediately for safety. What happens next depends on why it came off. If an opponent's direct contact knocked it off (a check, a collision, a stick to the head), it's a safety stoppage — no penalty on the player whose helmet came off, and any foul on the play still gets called. But under a new 2026 rule, if the helmet came off any other way — a loose chinstrap, the player tripping, a self-inflicted issue — it's a 30-second technical foul for illegal procedure on that player. The change is meant to encourage proper helmet and chinstrap fit.",
     whatHappensNext:
-      "Play stops. The affected player substitutes out. Possession usually goes to whichever team had it when the whistle blew. If the helmet came off because of a foul, the foul is still called.",
+      "Play stops. The player whose helmet came off leaves the field and can't return until the next dead ball. If the helmet came off because of an opponent's foul, the opponent serves their penalty. If it came off on its own, the player whose helmet came off serves 30 seconds in the box.",
     relatedRuleIds: ["broken_stick", "illegal_crosse"],
   },
 
@@ -598,7 +598,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "Two players made hard contact and you expected a whistle, but nothing happened.",
     whatItMeans:
-      "Boys lacrosse is a contact sport. A lot of contact that looks like it should be a foul is completely legal: body checks within five yards of a loose ball, stick checks on an opponent's stick or gloved hand, shoulder-to-shoulder position battles, and incidental contact during normal play. If the contact was within the rules, there's no call — even if it was loud.",
+      "Boys lacrosse is a contact sport. A lot of contact that looks like it should be a foul is completely legal: body checks on a ball-carrier or within five yards of a loose ball, stick checks on an opponent who has the ball or is within five yards of a loose ball or a ball in flight, shoulder-to-shoulder position battles, and incidental contact during normal play. If the contact was within the rules, there's no call — even if it was loud.",
     whatHappensNext:
       "Play continues.",
     relatedRuleIds: ["legal_body_check", "slashing", "push"],
