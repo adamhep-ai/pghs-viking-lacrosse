@@ -9,7 +9,13 @@ export function BasicsPage() {
   const location = useLocation();
   useEffect(() => {
     pushHistory(location.pathname);
-  }, [location.pathname]);
+    if (location.hash) {
+      const el = document.getElementById(location.hash.slice(1));
+      if (el) el.scrollIntoView({ block: "start" });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [location.pathname, location.hash]);
 
   return (
     <article className="space-y-10">

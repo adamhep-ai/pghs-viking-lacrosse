@@ -183,6 +183,22 @@ export function HomePage() {
               <span className="text-team-blue shrink-0" aria-hidden>→</span>
             </Link>
           </li>
+          <li>
+            <Link
+              to="/roster"
+              className="flex items-start justify-between gap-3 rounded-lg border border-team-grey-light bg-white hover:bg-team-blue-light hover:border-team-blue p-4"
+            >
+              <div>
+                <div className="font-medium text-team-blue-dark">
+                  This year's roster
+                </div>
+                <div className="text-sm text-team-grey mt-0.5">
+                  Numbers, names, positions, and grades.
+                </div>
+              </div>
+              <span className="text-team-blue shrink-0" aria-hidden>→</span>
+            </Link>
+          </li>
         </ul>
       </section>
     </div>
