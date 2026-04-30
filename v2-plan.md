@@ -30,7 +30,13 @@ What has shipped since this plan was written:
   is a New York state experimental rule only. The existing
   failure-to-advance content (20s + 10s) is correct.
 
-Not yet started: Phases 1, 3, 4, 5, 6, and most of Phase 2.
+Not yet started: Phases 1, 3, 4, 5, 6.
+
+**Phase 2 is parked.** The parts of it that genuinely changed parent
+trust (rule-content accuracy, the `// VERIFY` cleanup, the 4-goal
+margin in the last-2-min clock note) were folded into the rules pass.
+The remaining Phase 2 items are kept in the doc for reference but
+aren't on the active backlog.
 
 ---
 
@@ -82,32 +88,32 @@ recognizing the signal.
 
 Covers: **R4** (the big one), **R1** in part (delivers visuals for signals).
 
-## Phase 2 — Trust, scope, and content honesty
+## Phase 2 — Trust, scope, and content honesty *(parked)*
 
-Small, near-trivial fixes that materially change how parents perceive the
-site's authority and safety.
+**Deferred.** The rule-accuracy pass already covered the parts of this
+phase that materially change parent trust (correct content, footnotes
+in the right places, the `// VERIFY` cleanup). The remaining items are
+real but lower-leverage than Phase 1; coming back to them after signals
+ship is the right order. Items below are kept for reference, not the
+active backlog.
 
-- **R9** Add a one-line scope banner on the homepage and an `/about` blurb:
-  *"Boys' high school lacrosse, UHSAA / NFHS rules. Girls' rules differ
-  significantly."*
-- **R10** State the rulebook in the footer + Basics page: *"Based on NFHS
-  rules as adopted by UHSAA for the 2026 season."*
-- **R11 — RETIRED.** A shot-clock explainer was on the plan, but UHSAA /
-  NFHS does not have a shot clock; the 60-second clock referenced in
-  some sources is a New York state experiment and does not apply here.
-  The existing `failure_to_advance` content (20s + 10s) is current.
-- **R12** Add a "Reading the clock and scoreboard" section to Basics
-  (quarter length, last-two-minutes stop-clock with the 4-goal margin
-  condition that was added in the rules pass, timeouts, how penalty
-  time is displayed).
-- **R13** Expand each Equipment rule (`broken_stick`, `helmet_off`,
-  `stick_check`, `mouthguard`) to a real explanation card. Today these are
-  listed but several are stubs.
-- **R16** Make the All Rules page consistent — every entry gets a one-line
-  summary OR none do. Pick one and apply it across the file.
-- **R17** Resolve the homepage / All Rules duplication. Decide: homepage
-  shows curated highlights ("Most-asked calls"), `/rules` is the full
-  catalog. Remove the copy-paste overlap.
+- ~~**R9**~~ Scope banner ("Boys' HS, UHSAA / NFHS, girls' rules differ").
+- ~~**R10**~~ Rulebook citation in footer / Basics ("NFHS as adopted by
+  UHSAA for the 2026 season").
+- **R11 — RETIRED.** UHSAA / NFHS does not have a shot clock; the
+  60-second clock referenced in some sources is a New York state
+  experiment and does not apply here. The existing `failure_to_advance`
+  content (20s + 10s) is current.
+- ~~**R12**~~ "Reading the clock and scoreboard" section in Basics. The
+  4-goal margin condition for the last-2-min stop-clock was already
+  added in the rules pass; the broader scoreboard explainer is what's
+  parked.
+- ~~**R13**~~ Expand the Equipment rule cards (`broken_stick`,
+  `helmet_off`, `stick_check`, `mouthguard`). The 2025-26 rule pass
+  already updated `helmet_off`, `stick_check`, and `mouthguard` for
+  accuracy; turning the stubs into full cards is what's parked.
+- ~~**R16**~~ All Rules page consistency (summary on every entry or none).
+- ~~**R17**~~ Homepage / All Rules duplication.
 
 ## Phase 3 — Visual literacy (the spatial gap)
 
@@ -230,15 +236,16 @@ back if you disagree.
 | Phase | Effort | Ship together? |
 |-------|--------|----------------|
 | 1. Signals | Largest single chunk (~20 SVGs + grid + RuleExplanation update) | One PR |
-| 2. Trust + content | Mostly content edits in `rules.ts` + `basics.ts` | One PR, can land in parallel with Phase 1 |
+| 2. Trust + content | *Parked.* Items kept in the doc for reference. | — |
 | 3. Visual literacy | Three diagrams + category colors | One PR |
 | 4. Wayfinding | Glossary + cross-linking + breadcrumbs + sticky TOC + Finder polish | Split into 2 PRs (glossary alone, then the rest) |
 | 5. Polish + a11y | Many small items | One bundled "polish" PR |
 | 6. Cheat sheet + PWA | Two distinct features | One PR each |
 
-**Recommended order to start:** Phase 1, then Phase 2, then Phase 5
-(polish), because polish has the highest visible-quality-per-hour and lets
-the site feel finished before we layer on more content (Phase 3, 4, 6).
+**Recommended order to start:** Phase 1, then Phase 5 (polish), because
+polish has the highest visible-quality-per-hour and lets the site feel
+finished before we layer on more content (Phase 3, 4, 6). Phase 2 is
+parked.
 
 ---
 
