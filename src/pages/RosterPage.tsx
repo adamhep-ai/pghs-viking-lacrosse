@@ -149,12 +149,7 @@ function PlayerGrid({ players }: { players: Player[] }) {
           key={`${p.number}-${p.name}`}
           className="flex items-center gap-3 rounded-lg border border-team-grey-light bg-white p-3"
         >
-          <span
-            className="shrink-0 w-10 h-10 rounded-full bg-team-blue text-white font-bold flex items-center justify-center tabular-nums"
-            aria-label={`Number ${p.number}`}
-          >
-            {p.number}
-          </span>
+          <PlayerPhoto player={p} />
           <div className="min-w-0 flex-1">
             <div className="font-semibold text-team-blue-dark leading-tight truncate">
               {p.name}
@@ -167,6 +162,48 @@ function PlayerGrid({ players }: { players: Player[] }) {
       ))}
     </ul>
   );
+}
+
+function PlayerPhoto({ player }: { player: Player }) {
+  const [errored, setErrored] = useState(false);
+  const src = `/players/${player.number}.jpg`;
+
+  return (
+    <div className="relative shrink-0 w-16 h-16">
+      {errored ? (
+        <div
+          className="w-16 h-16 rounded-full bg-team-blue text-white text-base font-bold flex items-center justify-center"
+          aria-hidden
+        >
+          {initials(player.name)}
+        </div>
+      ) : (
+        <img
+          src={src}
+          alt={`${player.name}, number ${player.number}`}
+          width={64}
+          height={64}
+          loading="lazy"
+          decoding="async"
+          onError={() => setErrored(true)}
+          className="w-16 h-16 rounded-full object-cover bg-team-grey-light"
+        />
+      )}
+      <span
+        className="absolute -bottom-1 -right-1 min-w-[1.5rem] h-6 px-1.5 rounded-full bg-team-blue text-white text-xs font-bold flex items-center justify-center tabular-nums ring-2 ring-white"
+        aria-label={`Number ${player.number}`}
+      >
+        {player.number}
+      </span>
+    </div>
+  );
+}
+
+function initials(name: string): string {
+  const parts = name.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return "";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
 }
 
 function groupByPosition(list: Player[]): Record<Position, Player[]> {
