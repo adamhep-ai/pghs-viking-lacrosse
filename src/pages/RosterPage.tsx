@@ -145,19 +145,24 @@ function PlayerGrid({ players }: { players: Player[] }) {
       role="list"
     >
       {players.map((p) => (
-        <li
-          key={`${p.number}-${p.name}`}
-          className="flex items-center gap-3 rounded-lg border border-team-grey-light bg-white p-3"
-        >
-          <PlayerPhoto player={p} />
-          <div className="min-w-0 flex-1">
-            <div className="font-semibold text-team-blue-dark leading-tight truncate">
-              {p.name}
+        <li key={`${p.number}-${p.name}`}>
+          <AppLink
+            to={`/roster/${p.number}`}
+            className="flex items-center gap-3 rounded-lg border border-team-grey-light bg-white p-3 hover:bg-team-blue-light hover:border-team-blue focus:outline-none focus:ring-2 focus:ring-team-blue"
+          >
+            <PlayerPhoto player={p} />
+            <div className="min-w-0 flex-1">
+              <div className="font-semibold text-team-blue-dark leading-tight truncate">
+                {p.name}
+              </div>
+              <div className="text-sm text-team-grey leading-tight">
+                {POSITION_LABEL[p.position]} · Grade {p.grade}
+              </div>
             </div>
-            <div className="text-sm text-team-grey leading-tight">
-              {POSITION_LABEL[p.position]} · Grade {p.grade}
-            </div>
-          </div>
+            <span aria-hidden className="text-team-grey">
+              ›
+            </span>
+          </AppLink>
         </li>
       ))}
     </ul>

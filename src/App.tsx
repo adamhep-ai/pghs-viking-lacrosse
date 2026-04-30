@@ -7,6 +7,7 @@ import { RuleDetailPage } from "./pages/RuleDetailPage";
 import { BasicsPage } from "./pages/BasicsPage";
 import { RulesPage } from "./pages/RulesPage";
 import { RosterPage } from "./pages/RosterPage";
+import { PlayerPage } from "./pages/PlayerPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/basics" element={<BasicsPage />} />
           <Route path="/rules" element={<RulesPage />} />
           <Route path="/roster" element={<RosterPage />} />
+          <Route path="/roster/:number" element={<PlayerPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>

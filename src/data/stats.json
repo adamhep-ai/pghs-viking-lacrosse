@@ -1,0 +1,2215 @@
+{
+  "fetchedAt": "2026-04-30T04:55:14.194Z",
+  "source": "maxpreps.com",
+  "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
+  "players": {
+    "0": {
+      "careerid": "bj4aa17sccgm6",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/liam-stott/?careerid=bj4aa17sccgm6",
+      "firstName": "Liam",
+      "lastName": "Stott",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "26",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.9",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "50",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".317",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "12",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "2": {
+      "careerid": "148pkt8mogbi2",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/travis-mcfadden/?careerid=148pkt8mogbi2",
+      "firstName": "Travis",
+      "lastName": "Mcfadden",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/2/4/3/24347332-03eb-4509-bcc4-c49bd120e07f/thumbnail.jpg?version=639129942400029037",
+      "heightFeet": 5,
+      "heightInches": 10,
+      "weight": 160,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "8",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.6",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "22",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".250",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "20",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "3": {
+      "careerid": "0ie5jpogsei99",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/derek-brinton/?careerid=0ie5jpogsei99",
+      "firstName": "Derek",
+      "lastName": "Brinton",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 6,
+      "heightInches": 2,
+      "weight": 220,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "13",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "8",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "20",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".333",
+          "nationalAverage": ".511",
+          "comparison": "Above"
+        },
+        {
+          "name": "Faceoffs Won",
+          "value": "1",
+          "nationalAverage": "24",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "4": {
+      "careerid": "cba6vfb5nb022",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/grant-hepworth/?careerid=cba6vfb5nb022",
+      "firstName": "Grant",
+      "lastName": "Hepworth",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "11",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "4",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.4",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "13",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".200",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "13",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "5": {
+      "careerid": "785r19ieoq1ue",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/quinn-lawrence/?careerid=785r19ieoq1ue",
+      "firstName": "Quinn",
+      "lastName": "Lawrence",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/0/6/0/0601a7ef-3c85-4d67-b509-c2bd5e6e43cf/thumbnail.jpg?version=639129942088090039",
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "38",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "2.7",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "52",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".535",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "28",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "6": {
+      "careerid": "ds2rqd61g7ml5",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/owen-sherriff/?careerid=ds2rqd61g7ml5",
+      "firstName": "Owen",
+      "lastName": "Sherriff",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "12",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.1",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "4",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".167",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "7": {
+      "careerid": "jrt1tu9ks21j3",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/carston-carter/?careerid=jrt1tu9ks21j3",
+      "firstName": "Carston",
+      "lastName": "Carter",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/f/0/8/f08d96d3-a5d0-4078-bfc1-5a6b05eecce5/thumbnail.jpg?version=639129942021472271",
+      "heightFeet": 5,
+      "heightInches": 9,
+      "weight": 160,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "13",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "11",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.8",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "8",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".733",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "8",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "8": {
+      "careerid": "1ma21ueo9r077",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/eli-moses/?careerid=1ma21ueo9r077",
+      "firstName": "Eli",
+      "lastName": "Moses",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "8",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "20",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "1",
+          "nationalAverage": "19",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.4",
+          "nationalAverage": "1.6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "9": {
+      "careerid": "5cdlipfrj6bff",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/zack-williams/?careerid=5cdlipfrj6bff",
+      "firstName": "Zack",
+      "lastName": "Williams",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "7",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "13",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Assists",
+          "value": "2",
+          "nationalAverage": "5",
+          "comparison": "Above"
+        },
+        {
+          "name": "Points",
+          "value": "2",
+          "nationalAverage": "11",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "1",
+          "nationalAverage": "19",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "7",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "10": {
+      "careerid": "l62cboqrpeq55",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/thomas-james/?careerid=l62cboqrpeq55",
+      "firstName": "Thomas",
+      "lastName": "James",
+      "seasonYear": null,
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 5,
+      "heightInches": 10,
+      "weight": 145,
+      "categories": []
+    },
+    "11": {
+      "careerid": "d8v0b2emdvki2",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/myles-doman/?careerid=d8v0b2emdvki2",
+      "firstName": "Myles",
+      "lastName": "Doman",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "12",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "32",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "2.7",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "49",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".444",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "22",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "12": {
+      "careerid": "hr7enq1ja5un7",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/ty-smith/?careerid=hr7enq1ja5un7",
+      "firstName": "Ty",
+      "lastName": "Smith",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.5",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Points",
+          "value": "1",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "13": {
+      "careerid": "oc6sff36ogp33",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/korban-warner/?careerid=oc6sff36ogp33",
+      "firstName": "Korban",
+      "lastName": "Warner",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "2",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".333",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".720",
+          "nationalAverage": ".518",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "14": {
+      "careerid": "l7ehfj1h1karb",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/luke-bills/?careerid=l7ehfj1h1karb",
+      "firstName": "Luke",
+      "lastName": "Bills",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 6,
+      "heightInches": 0,
+      "weight": 160,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "6",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "5",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "15",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "1",
+          "nationalAverage": "19",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "2.5",
+          "nationalAverage": "1.6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "15": {
+      "careerid": "bpdrt3k255rff",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/brigham-smoot/?careerid=bpdrt3k255rff",
+      "firstName": "Brigham",
+      "lastName": "Smoot",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".700",
+          "nationalAverage": ".518",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "7",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "3.5",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "16": {
+      "careerid": "1ohrrgk1tclo8",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/miles-harrison/?careerid=1ohrrgk1tclo8",
+      "firstName": "Miles",
+      "lastName": "Harrison",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "13",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Assists",
+          "value": "1",
+          "nationalAverage": "5",
+          "comparison": "Above"
+        },
+        {
+          "name": "Points",
+          "value": "1",
+          "nationalAverage": "11",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "1",
+          "nationalAverage": "19",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "17": {
+      "careerid": "fe3t7f17firvf",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/asher-bayles/?careerid=fe3t7f17firvf",
+      "firstName": "Asher",
+      "lastName": "Bayles",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 6,
+      "heightInches": 2,
+      "weight": 230,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.0",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "18": {
+      "careerid": "437r3olrqtp55",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/peter-sandberg/?careerid=437r3olrqtp55",
+      "firstName": "Peter",
+      "lastName": "Sandberg",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/d/c/2/dc2978a0-3ede-4ed8-8662-a19c24e33603/thumbnail.jpg?version=639129942422418532",
+      "heightFeet": 4,
+      "heightInches": 3,
+      "weight": 460,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "8",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "7",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.9",
+          "nationalAverage": "1.6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "19": {
+      "careerid": "roqit8peicrdd",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/josh-garlick/?careerid=roqit8peicrdd",
+      "firstName": "Josh",
+      "lastName": "Garlick",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "5",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.7",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "20": {
+      "careerid": "sgf2898ngnaqa",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/tucker-powell/?careerid=sgf2898ngnaqa",
+      "firstName": "Tucker",
+      "lastName": "Powell",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "5",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.7",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "21": {
+      "careerid": "u18rdk06tc3m6",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/daniel-mcmillan/?careerid=u18rdk06tc3m6",
+      "firstName": "Daniel",
+      "lastName": "McMillan",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "8",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.1",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": "1.000",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Assists",
+          "value": "1",
+          "nationalAverage": "5",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "22": {
+      "careerid": "812lf50flfd11",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/blake-platt/?careerid=812lf50flfd11",
+      "firstName": "Blake",
+      "lastName": "Platt",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "2",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "23": {
+      "careerid": "r3521henr5sg0",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/brigham-adams/?careerid=r3521henr5sg0",
+      "firstName": "Brigham",
+      "lastName": "Adams",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "7",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.4",
+          "nationalAverage": "1.6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "24": {
+      "careerid": "8bfsn94alfotd",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/colton-braby/?careerid=8bfsn94alfotd",
+      "firstName": "Colton",
+      "lastName": "Braby",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "5",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.4",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "5",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".455",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".500",
+          "nationalAverage": ".511",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "25": {
+      "careerid": "es4njs1n3qjn7",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/jake-bills/?careerid=es4njs1n3qjn7",
+      "firstName": "Jake",
+      "lastName": "Bills",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "6",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.5",
+          "nationalAverage": "1.6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "26": {
+      "careerid": "64ajmhnlokcl5",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/rj-hatfield/?careerid=64ajmhnlokcl5",
+      "firstName": "RJ",
+      "lastName": "Hatfield",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": "1.000",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "10",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "27": {
+      "careerid": "s6t70etg6op44",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/spencer-taggart/?careerid=s6t70etg6op44",
+      "firstName": "Spencer",
+      "lastName": "Taggart",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/5/5/7/5577e898-961f-4fee-b136-894ce32c4c29/thumbnail.jpg?version=639129942314991701",
+      "heightFeet": 5,
+      "heightInches": 8,
+      "weight": 170,
+      "categories": [
+        {
+          "name": "Goalkeeper Minutes",
+          "value": "636",
+          "nationalAverage": "223",
+          "comparison": "Above"
+        },
+        {
+          "name": "Saves",
+          "value": "119",
+          "nationalAverage": "28",
+          "comparison": "Above"
+        },
+        {
+          "name": "Save Percentage",
+          "value": ".561",
+          "nationalAverage": ".252",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Against Average",
+          "value": "7.0",
+          "nationalAverage": "10.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Against",
+          "value": "93",
+          "nationalAverage": "22",
+          "comparison": "Above"
+        },
+        {
+          "name": "Win",
+          "value": "11",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "28": {
+      "careerid": "ovv3hq68rd2td",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/parker-boyer/?careerid=ovv3hq68rd2td",
+      "firstName": "Parker",
+      "lastName": "Boyer",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": "1.000",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "29": {
+      "careerid": "ihsmenaajesvf",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/myles-cox/?careerid=ihsmenaajesvf",
+      "firstName": "Myles",
+      "lastName": "Cox",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "12",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.9",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "27",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".267",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".525",
+          "nationalAverage": ".511",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "30": {
+      "careerid": "j32h78utd9s00",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/davis-orton/?careerid=j32h78utd9s00",
+      "firstName": "Davis",
+      "lastName": "Orton",
+      "seasonYear": null,
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": []
+    },
+    "31": {
+      "careerid": "diu4v5sk3mc11",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/keaton-anderson/?careerid=diu4v5sk3mc11",
+      "firstName": "Keaton",
+      "lastName": "Anderson",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 6,
+      "heightInches": 3,
+      "weight": 250,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "7",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.8",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "32": {
+      "careerid": "45fnhf8k5dn77",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/henry-chipman/?careerid=45fnhf8k5dn77",
+      "firstName": "Henry",
+      "lastName": "Chipman",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/7/1/8/718544a9-f355-4157-89df-14b601d91e93/thumbnail.jpg?version=639129942264989535",
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "12",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "19",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.6",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "25",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".528",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "11",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "34": {
+      "careerid": "fgkvd3gt4joee",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/jackson-gurr/?careerid=fgkvd3gt4joee",
+      "firstName": "Jackson",
+      "lastName": "Gurr",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639129942254510519",
+      "heightFeet": 5,
+      "heightInches": 11,
+      "weight": 145,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "35": {
+      "careerid": "nk4kq9qod57cc",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/grayson-smoot/?careerid=nk4kq9qod57cc",
+      "firstName": "Grayson",
+      "lastName": "Smoot",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Goalkeeper Minutes",
+          "value": "83",
+          "nationalAverage": "154",
+          "comparison": "Above"
+        },
+        {
+          "name": "Saves",
+          "value": "8",
+          "nationalAverage": "14",
+          "comparison": "Above"
+        },
+        {
+          "name": "Save Percentage",
+          "value": ".571",
+          "nationalAverage": ".253",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Against Average",
+          "value": "3.5",
+          "nationalAverage": "7.3",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Against",
+          "value": "6",
+          "nationalAverage": "12",
+          "comparison": "Above"
+        },
+        {
+          "name": "Win",
+          "value": "1",
+          "nationalAverage": "2",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "36": {
+      "careerid": "jg83ser7dqhi2",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/mikey-doman/?careerid=jg83ser7dqhi2",
+      "firstName": "Mikey",
+      "lastName": "Doman",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "2",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.5",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "6",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".222",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "14",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "37": {
+      "careerid": "pgsjc84ipqlsc",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/sam-christensen/?careerid=pgsjc84ipqlsc",
+      "firstName": "Sam",
+      "lastName": "Christensen",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".500",
+          "nationalAverage": ".518",
+          "comparison": "Above"
+        },
+        {
+          "name": "Faceoffs Won",
+          "value": "1",
+          "nationalAverage": "11",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "38": {
+      "careerid": "6blk2fcbr9kg0",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/omar-villareal/?careerid=6blk2fcbr9kg0",
+      "firstName": "Omar",
+      "lastName": "Villareal",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.5",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "39": {
+      "careerid": "e0cgrggo6sgtd",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/easton-jeffs/?careerid=e0cgrggo6sgtd",
+      "firstName": "Easton",
+      "lastName": "Jeffs",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "4",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Assists",
+          "value": "1",
+          "nationalAverage": "2",
+          "comparison": "Above"
+        },
+        {
+          "name": "Points",
+          "value": "1",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Assists Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.0",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "40": {
+      "careerid": "bi86ibs28k4g0",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/gabe-leavitt/?careerid=bi86ibs28k4g0",
+      "firstName": "Gabe",
+      "lastName": "Leavitt",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "1",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".500",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "41": {
+      "careerid": "p9v4p4urd20sc",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/jakub-kuhnel/?careerid=p9v4p4urd20sc",
+      "firstName": "Jakub",
+      "lastName": "Kuhnel",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "1",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "2.0",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "42": {
+      "careerid": "qflu5l8fkf3ue",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/hayden-conder/?careerid=qflu5l8fkf3ue",
+      "firstName": "Hayden",
+      "lastName": "Conder",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "5",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.7",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "43": {
+      "careerid": "f9lcabjiin8dd",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/davis-hepworth/?careerid=f9lcabjiin8dd",
+      "firstName": "Davis",
+      "lastName": "Hepworth",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": "1.000",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Draws Won",
+          "value": ".250",
+          "nationalAverage": ".518",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "4",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "44": {
+      "careerid": "543a5mldt53p9",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/deegan-ash/?careerid=543a5mldt53p9",
+      "firstName": "Deegan",
+      "lastName": "Ash",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/9/e/b/9ebdd2d4-84a2-44d9-af5d-cbc33d90d33b/thumbnail.jpg?version=639129942150331280",
+      "heightFeet": 6,
+      "heightInches": 2,
+      "weight": 165,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "14",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "1",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.1",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "4",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".143",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "52",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "45": {
+      "careerid": "upmia6mr6ri00",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/xander-evans/?careerid=upmia6mr6ri00",
+      "firstName": "Xander",
+      "lastName": "Evans",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Takeaways",
+          "value": "2",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "15",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "3.8",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "46": {
+      "careerid": "jv3tfgjpnmevf",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/mason-nelson/?careerid=jv3tfgjpnmevf",
+      "firstName": "Mason",
+      "lastName": "Nelson",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "1",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "47": {
+      "careerid": "1otm8itol1jm6",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/hunter-reay/?careerid=1otm8itol1jm6",
+      "firstName": "Hunter",
+      "lastName": "Reay",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.5",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "48": {
+      "careerid": "69gcurvkp4ti2",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/max-smart/?careerid=69gcurvkp4ti2",
+      "firstName": "Max",
+      "lastName": "Smart",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "10",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "2.5",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "49": {
+      "careerid": "1rdg7qmrtk4o8",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/river-reeve/?careerid=1rdg7qmrtk4o8",
+      "firstName": "River",
+      "lastName": "Reeve",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "2",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Total Shots",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.0",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "50": {
+      "careerid": "15o16660eipcc",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/spencer-schulz/?careerid=15o16660eipcc",
+      "firstName": "Spencer",
+      "lastName": "Schulz",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": "https://image.maxpreps.io/careers/7/9/b/79bff878-831a-4ebb-ab6c-8c563826f2b0/thumbnail.jpg?version=639129942077893143",
+      "heightFeet": 6,
+      "heightInches": 0,
+      "weight": 138,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "12",
+          "nationalAverage": "9",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "5",
+          "nationalAverage": "8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.4",
+          "nationalAverage": "0.8",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "9",
+          "nationalAverage": "13",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".278",
+          "nationalAverage": ".513",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "8",
+          "nationalAverage": "16",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "51": {
+      "careerid": "s39gb52dsifi2",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/cade-whatcott/?careerid=s39gb52dsifi2",
+      "firstName": "Cade",
+      "lastName": "Whatcott",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": 6,
+      "heightInches": 1,
+      "weight": 160,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "3",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.3",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "55": {
+      "careerid": "qrfrs57mpqp33",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/hank-fondren/?careerid=qrfrs57mpqp33",
+      "firstName": "Hank",
+      "lastName": "Fondren",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals",
+          "value": "5",
+          "nationalAverage": "4",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "1.3",
+          "nationalAverage": "0.7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shots on Goal",
+          "value": "3",
+          "nationalAverage": "7",
+          "comparison": "Above"
+        },
+        {
+          "name": "Shot Percentage",
+          "value": ".833",
+          "nationalAverage": ".441",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "2",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
+    },
+    "60": {
+      "careerid": "s0bfq3tu02fg0",
+      "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/archer-stailey/?careerid=s0bfq3tu02fg0",
+      "firstName": "Archer",
+      "lastName": "Stailey",
+      "seasonYear": "2026",
+      "hasStats": true,
+      "photoUrl": null,
+      "heightFeet": null,
+      "heightInches": null,
+      "weight": null,
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "4",
+          "nationalAverage": "6",
+          "comparison": "Above"
+        },
+        {
+          "name": "Ground Balls",
+          "value": "3",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        },
+        {
+          "name": "Goals Per Game",
+          "value": "0.8",
+          "nationalAverage": "1.4",
+          "comparison": "Above"
+        }
+      ]
+    }
+  }
+}

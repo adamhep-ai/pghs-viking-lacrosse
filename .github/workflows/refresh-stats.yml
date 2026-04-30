@@ -1,0 +1,37 @@
+name: Refresh MaxPreps stats
+
+on:
+  schedule:
+    # Every other day at 13:00 UTC (~7am MT in season).
+    - cron: "0 13 */2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scrape stats
+        run: node scripts/scrape-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Drop the fetchedAt-only diff so we don't churn commits when nothing real changed.
+          if git diff --quiet --ignore-matching-lines='"fetchedAt"' -- src/data/stats.json; then
+            echo "No meaningful stat changes."
+            git checkout -- src/data/stats.json
+            exit 0
+          fi
+          git add src/data/stats.json
+          git commit -m "chore: refresh MaxPreps stats"
+          git push
