@@ -7,3 +7,7 @@ dist
 !.vscode/settings.json
 .claude/
 *.tsbuildinfo
+
+# Source headshots — large originals, kept local only.
+# Resized site-ready versions live in public/players/.
+team-photos/
