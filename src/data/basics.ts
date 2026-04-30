@@ -37,7 +37,7 @@ Because of the offsides rule, the 3 attackers stay on one half and the 3 defende
   {
     id: "how-a-game-flows",
     heading: "How a game flows",
-    body: `High school boys lacrosse games are **four 12-minute quarters**. The clock stops on whistles in the last two minutes of the game (and on some other dead-ball situations).
+    body: `High school boys lacrosse games are **four 12-minute quarters**. In the last two minutes of the fourth quarter, if the score is within four goals, the clock stops on every whistle. If a team is up by more than four, the clock keeps running normally — that's why the end of a blowout looks different from the end of a one-goal game.
 
 A **faceoff** restarts play. There's one at the start of each quarter and after every goal. Two players crouch over the ball at midfield, and a whistle releases them to fight for possession. Wing midfielders stand 20 yards away and can run in as soon as the whistle blows.
 

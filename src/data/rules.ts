@@ -134,7 +134,7 @@ export const rules: Rule[] = [
     whatItMeans:
       "Tripping is using a stick, arm, leg, or foot to cause an opponent to lose their footing. It doesn't matter whether the player had the ball. The tripped player doesn't have to actually fall — the attempt is enough.",
     whatHappensNext:
-      "Usually a 1-minute personal foul. Minor or incidental tripping can be called as a technical foul (30 seconds or turnover) instead, at the ref's discretion.",
+      "1-minute personal foul. The player serves time in the box and their team plays a man down.",
     signal: "tripping",
     relatedRuleIds: ["hold", "interference"],
   },
@@ -341,7 +341,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "A whistle and the ref points toward one team's goal to show possession.",
     whatItMeans:
-      "When the ball or a player carrying the ball goes out of bounds, possession goes to the team that didn't touch it last. The exception is on a shot: if the ball goes out of bounds after a shot on goal, possession goes to whichever player was closest to the ball when it went out, regardless of team. This is why you'll see players sprint to back up their own team's shots — they're positioning to recover possession if it misses.",
+      "When the ball or a player carrying the ball goes out of bounds, possession goes to the team that didn't touch it last. The exception is on a shot: if the ball goes out of bounds after a shot on goal, possession goes to the team whose player is inbounds and closest to the ball when it went out, regardless of who shot it. This is why you'll see players sprint to back up their own team's shots — they're positioning to recover possession if it misses.",
     whatHappensNext:
       "The team awarded possession restarts play from the spot where the ball went out.",
     signal: "possession",
@@ -358,7 +358,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "A whistle during a clear, and possession flips. The defense hadn't done anything obviously wrong.",
     whatItMeans:
-      "The team with the ball has time limits to move it up the field. After gaining possession in their defensive end, they have 20 seconds to get the ball across the midfield line, then another 10 seconds to get it into the offensive restraining box. If they don't meet either deadline, they lose the ball.", // VERIFY — shot clock / advance rules have been updated in recent seasons
+      "The team with the ball has time limits to move it up the field. After gaining possession in their defensive end, they have 20 seconds to get the ball across the midfield line, then another 10 seconds to get it into the offensive restraining box. If they don't meet either deadline, they lose the ball.",
     whatHappensNext:
       "Turnover at the spot of the ball when the time expired.",
     signal: "technical_foul",
@@ -380,7 +380,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "The ref keeps resetting the faceoff, moving players around, or eventually awarding the ball without a faceoff at all.",
     whatItMeans:
-      "Faceoffs have strict setup rules, and JV games especially can get messy when players are still learning them. Common issues: a player moves before the whistle (false start), the stick or hands aren't positioned correctly, a wing player leaves the wing line too early, or the faceoff taker's body position is illegal. Officials can also call delay of game if a faceoff taker repeatedly asks for stick or position adjustments — recent rules changes specifically allow refs to award the ball to the opponent if a player is stalling the faceoff with repeated adjustments.", // VERIFY — this is the newer NFHS interpretation
+      "Faceoffs have strict setup rules, and JV games especially can get messy when players are still learning them. Common issues: a player moves before the whistle (false start), the stick or hands aren't positioned correctly, a wing player leaves the wing line too early, or the faceoff taker's body position is illegal. Officials can also call delay of game if a faceoff taker repeatedly asks for stick or position adjustments — under Rule 4-3-3e, refs can call delay of game and award the ball to the opponent if a faceoff player has to be repeatedly adjusted.",
     whatHappensNext:
       "A single violation usually results in the other team getting the ball. Repeated violations by the same player can become a 30-second technical foul or a delay-of-game call that awards the ball outright.",
     signal: "technical_foul",
@@ -427,7 +427,7 @@ export const rules: Rule[] = [
     whatItMeans:
       "A coach can ask the ref to inspect an opposing player's stick at specific points in the game — usually after a goal is scored. The ref checks whether the stick meets the rules: head shape, pocket depth, string setup. If the stick is illegal, the player is penalized.",
     whatHappensNext:
-      "If the stick is legal, nothing happens. If the stick is illegal, it's a personal foul (1–3 minutes, often non-releasable) and the stick is removed from play. If the check was requested and the stick was legal, the requesting team is sometimes assessed a penalty for a bad request.", // VERIFY — specifics vary
+      "If the stick is illegal, it's a personal foul (1–3 minutes, often non-releasable) and the stick is removed from play. If the stick is legal, the requesting team is charged a timeout — the cost of asking. That's why coaches don't request stick checks lightly.",
     relatedRuleIds: ["illegal_crosse", "broken_stick"],
   },
 
@@ -438,9 +438,9 @@ export const rules: Rule[] = [
     whatYouSee:
       "A ref tells a player to put their mouthguard in, or calls a penalty if they keep playing without it.",
     whatItMeans:
-      "Mouthguards are required equipment. A player has to have it in their mouth during play. Chewing it, wearing it around the neck, or not wearing it at all is a violation. The first instance is usually a warning; repeated violations become a penalty.",
+      "Mouthguards are required equipment and have to be in the player's mouth during play. Chewing it, wearing it around the neck, or not wearing it at all is a violation. Officials may give an informal warning the first time, but the rule itself is a 30-second technical foul any time a player isn't properly wearing one.",
     whatHappensNext:
-      "Typically a 30-second technical foul after a warning. Repeated offenses can escalate.",
+      "30-second technical foul. The player serves the time in the box and the team plays a man down. Repeated offenses can escalate.",
     relatedRuleIds: ["helmet_off", "illegal_crosse"],
   },
 
@@ -631,7 +631,7 @@ export const rules: Rule[] = [
     whatYouSee:
       "The offense passes the ball around without trying to attack. The ref may yell 'get it in!' or make a stalling signal.",
     whatItMeans:
-      "Lacrosse rules push teams to actually try to score rather than just run out the clock. A few related situations come up here. First, if the ref thinks the offense is stalling, they can issue a stall warning — the team then has to keep the ball inside the offensive box (the marked rectangle around the goal). Second, inside the final two minutes of a close game, the team with the lead is automatically required to 'keep it in.' Third, if a team loses the ball outside the box during a keep-it-in, it's a turnover.", // VERIFY — the two-minute / automatic keep-it-in rule has specific triggers about score margin
+      "Lacrosse rules push teams to actually try to score rather than just run out the clock. A few related situations come up here. First, if the ref thinks the offense is stalling, they can issue a stall warning — the team then has to keep the ball inside the offensive box (the marked rectangle around the goal). Second, inside the final two minutes of a close game, the team with the lead is automatically required to 'keep it in.' Third, if a team loses the ball outside the box during a keep-it-in, it's a turnover.",
     whatHappensNext:
       "A stall warning itself isn't a penalty — it's a warning. But if the team leaves the box after being warned, it's a turnover. Repeated stalling can also be called as illegal procedure.",
     signal: "stalling",
