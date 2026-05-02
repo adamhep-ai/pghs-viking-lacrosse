@@ -3,6 +3,7 @@ import { useLocation, useParams } from "react-router-dom";
 import { AppLink } from "../components/AppLink";
 import { BackButton } from "../components/BackButton";
 import { roster, POSITION_LABEL, type Player } from "../data/roster";
+import { playerLifts, type Lift } from "../data/lifts";
 import { getPlayerStats, STATS_FETCHED_AT, type StatCategory } from "../lib/stats";
 import { pushHistory } from "../lib/history";
 
@@ -49,16 +50,20 @@ export function PlayerPage() {
   }
 
   const stats = getPlayerStats(player.number);
+  const lifts = playerLifts[player.number] ?? [];
+  const hasSeasonStats = Boolean(stats?.hasStats && stats.categories.length > 0);
 
   return (
     <div className="space-y-6">
       <PlayerHero player={player} maxprepsPhoto={stats?.photoUrl ?? null} />
 
-      <PlayerMeta player={player} stats={stats} />
+      <PlayerMeta player={player} />
 
-      {stats && stats.hasStats && stats.categories.length > 0 ? (
-        <StatsGrid categories={stats.categories} />
-      ) : (
+      {hasSeasonStats && <StatsGrid categories={stats!.categories} />}
+
+      {lifts.length > 0 && <LiftsGrid lifts={lifts} />}
+
+      {!hasSeasonStats && lifts.length === 0 && (
         <div className="rounded-lg border border-team-grey-light bg-white p-4 text-sm text-team-grey">
           No stats posted yet for {player.name} this season.
         </div>
@@ -138,19 +143,7 @@ function PlayerHero({
   );
 }
 
-function PlayerMeta({
-  player,
-  stats,
-}: {
-  player: Player;
-  stats: ReturnType<typeof getPlayerStats>;
-}) {
-  const heightLabel =
-    stats?.heightFeet != null
-      ? `${stats.heightFeet}'${stats.heightInches ?? 0}"`
-      : null;
-  const weightLabel = stats?.weight != null ? `${stats.weight} lbs` : null;
-
+function PlayerMeta({ player }: { player: Player }) {
   return (
     <header className="space-y-1 text-center">
       <h1 className="text-3xl sm:text-4xl font-bold text-team-blue-dark leading-tight">
@@ -159,10 +152,31 @@ function PlayerMeta({
       <p className="text-sm sm:text-base text-team-grey">
         {POSITION_LABEL[player.position]} · {GRADE_LABEL[player.grade]} (
         {player.grade}th grade)
-        {heightLabel && ` · ${heightLabel}`}
-        {weightLabel && ` · ${weightLabel}`}
       </p>
     </header>
+  );
+}
+
+function LiftsGrid({ lifts }: { lifts: Lift[] }) {
+  return (
+    <section className="space-y-3">
+      <h2 className="text-xl font-bold text-team-blue-dark">Lifts</h2>
+      <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2" role="list">
+        {lifts.map((lift) => (
+          <li
+            key={lift.name}
+            className="rounded-lg border border-team-grey-light bg-white p-3"
+          >
+            <div className="text-2xl font-bold text-team-blue-dark tabular-nums">
+              {lift.value}
+            </div>
+            <div className="text-xs font-medium text-team-grey leading-tight">
+              {lift.name}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 

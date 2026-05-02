@@ -18,9 +18,6 @@ export type PlayerStats = {
   seasonYear: string | null;
   hasStats: boolean;
   photoUrl: string | null;
-  heightFeet: number | null;
-  heightInches: number | null;
-  weight: number | null;
   categories: StatCategory[];
 };
 

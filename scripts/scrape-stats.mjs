@@ -116,9 +116,6 @@ async function loadPlayerStats(profileUrl) {
     seasonYear: quick?.seasonYear ?? null,
     hasStats,
     photoUrl: careerData.hasProfileImage ? careerData.photoUrl ?? null : null,
-    heightFeet: careerData.heightFeet ?? null,
-    heightInches: careerData.heightInches ?? null,
-    weight: careerData.weight ?? null,
     categories,
   };
 }
