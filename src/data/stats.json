@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-01T14:18:56.059Z",
+  "fetchedAt": "2026-05-03T14:12:43.551Z",
   "source": "maxpreps.com",
   "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
   "players": {
@@ -27,7 +27,7 @@
         {
           "name": "Goals Per Game",
           "value": "1.7",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -39,7 +39,7 @@
         {
           "name": "Shot Percentage",
           "value": ".306",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -74,7 +74,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.5",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -86,7 +86,7 @@
         {
           "name": "Shot Percentage",
           "value": ".222",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -168,7 +168,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.3",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -180,7 +180,7 @@
         {
           "name": "Shot Percentage",
           "value": ".182",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -215,7 +215,7 @@
         {
           "name": "Goals Per Game",
           "value": "2.8",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -227,7 +227,7 @@
         {
           "name": "Shot Percentage",
           "value": ".553",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -262,7 +262,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.1",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -274,7 +274,7 @@
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -309,7 +309,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.9",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -321,7 +321,7 @@
         {
           "name": "Shot Percentage",
           "value": ".750",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -403,7 +403,7 @@
         {
           "name": "Points",
           "value": "2",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
@@ -454,7 +454,7 @@
         {
           "name": "Goals Per Game",
           "value": "2.5",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -466,7 +466,7 @@
         {
           "name": "Shot Percentage",
           "value": ".440",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -489,7 +489,7 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -507,7 +507,7 @@
         {
           "name": "Ground Balls",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -536,7 +536,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -560,13 +560,13 @@
         {
           "name": "Shot Percentage",
           "value": ".333",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".720",
-          "nationalAverage": ".515",
+          "nationalAverage": ".511",
           "comparison": "Above"
         }
       ]
@@ -624,7 +624,7 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -636,19 +636,19 @@
         {
           "name": "Draws Won",
           "value": ".700",
-          "nationalAverage": ".515",
+          "nationalAverage": ".511",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "7",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
           "name": "Total Shots",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -689,7 +689,7 @@
         {
           "name": "Points",
           "value": "1",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
@@ -718,13 +718,13 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -782,13 +782,13 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "5",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -811,7 +811,7 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -823,7 +823,7 @@
         {
           "name": "Ground Balls",
           "value": "5",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -858,13 +858,13 @@
         {
           "name": "Goals Per Game",
           "value": "0.1",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -893,7 +893,7 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -905,7 +905,7 @@
         {
           "name": "Total Shots",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -969,7 +969,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.3",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -981,7 +981,7 @@
         {
           "name": "Shot Percentage",
           "value": ".455",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -1033,7 +1033,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1057,13 +1057,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "10",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -1080,19 +1080,19 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "684",
-          "nationalAverage": "233",
+          "nationalAverage": "241",
           "comparison": "Above"
         },
         {
           "name": "Saves",
           "value": "127",
-          "nationalAverage": "29",
+          "nationalAverage": "30",
           "comparison": "Above"
         },
         {
           "name": "Save Percentage",
           "value": ".552",
-          "nationalAverage": ".252",
+          "nationalAverage": ".251",
           "comparison": "Above"
         },
         {
@@ -1104,7 +1104,7 @@
         {
           "name": "Goals Against",
           "value": "103",
-          "nationalAverage": "23",
+          "nationalAverage": "24",
           "comparison": "Above"
         },
         {
@@ -1127,7 +1127,7 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1151,13 +1151,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -1186,7 +1186,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.9",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -1198,7 +1198,7 @@
         {
           "name": "Shot Percentage",
           "value": ".289",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -1231,7 +1231,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1243,7 +1243,7 @@
         {
           "name": "Ground Balls",
           "value": "7",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1278,7 +1278,7 @@
         {
           "name": "Goals Per Game",
           "value": "1.5",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -1290,7 +1290,7 @@
         {
           "name": "Shot Percentage",
           "value": ".500",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -1313,13 +1313,13 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1342,7 +1342,7 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "83",
-          "nationalAverage": "160",
+          "nationalAverage": "164",
           "comparison": "Above"
         },
         {
@@ -1354,13 +1354,13 @@
         {
           "name": "Save Percentage",
           "value": ".571",
-          "nationalAverage": ".244",
+          "nationalAverage": ".245",
           "comparison": "Above"
         },
         {
           "name": "Goals Against Average",
           "value": "3.5",
-          "nationalAverage": "7.3",
+          "nationalAverage": "7.2",
           "comparison": "Above"
         },
         {
@@ -1389,7 +1389,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1413,13 +1413,13 @@
         {
           "name": "Shot Percentage",
           "value": ".222",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "14",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -1436,7 +1436,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1448,13 +1448,13 @@
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".500",
-          "nationalAverage": ".515",
+          "nationalAverage": ".511",
           "comparison": "Above"
         },
         {
@@ -1483,13 +1483,13 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1518,19 +1518,19 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "4",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
           "name": "Assists",
           "value": "1",
-          "nationalAverage": "2",
+          "nationalAverage": "3",
           "comparison": "Above"
         },
         {
@@ -1565,7 +1565,7 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1589,13 +1589,13 @@
         {
           "name": "Shot Percentage",
           "value": ".500",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -1612,13 +1612,13 @@
         {
           "name": "Games Played",
           "value": "1",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1641,7 +1641,7 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1653,7 +1653,7 @@
         {
           "name": "Ground Balls",
           "value": "5",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1676,7 +1676,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1694,19 +1694,19 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".250",
-          "nationalAverage": ".515",
+          "nationalAverage": ".511",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "4",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -1735,7 +1735,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.1",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -1747,7 +1747,7 @@
         {
           "name": "Shot Percentage",
           "value": ".143",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -1770,7 +1770,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -1782,7 +1782,7 @@
         {
           "name": "Ground Balls",
           "value": "15",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1805,7 +1805,7 @@
         {
           "name": "Games Played",
           "value": "1",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         }
       ]
@@ -1822,13 +1822,13 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1851,13 +1851,13 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "10",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1880,19 +1880,19 @@
         {
           "name": "Games Played",
           "value": "2",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1927,7 +1927,7 @@
         {
           "name": "Goals Per Game",
           "value": "0.4",
-          "nationalAverage": "0.8",
+          "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
@@ -1939,7 +1939,7 @@
         {
           "name": "Shot Percentage",
           "value": ".250",
-          "nationalAverage": ".522",
+          "nationalAverage": ".521",
           "comparison": "Above"
         },
         {
@@ -1962,13 +1962,13 @@
         {
           "name": "Games Played",
           "value": "3",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
@@ -1991,7 +1991,7 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
@@ -2015,13 +2015,13 @@
         {
           "name": "Shot Percentage",
           "value": ".833",
-          "nationalAverage": ".439",
+          "nationalAverage": ".427",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "2",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         }
       ]
@@ -2038,13 +2038,13 @@
         {
           "name": "Games Played",
           "value": "4",
-          "nationalAverage": "6",
+          "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "10",
+          "nationalAverage": "11",
           "comparison": "Above"
         },
         {
