@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-03T14:12:43.551Z",
+  "fetchedAt": "2026-05-07T15:29:54.330Z",
   "source": "maxpreps.com",
   "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
   "players": {
@@ -14,38 +14,38 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "26",
-          "nationalAverage": "8",
+          "value": "33",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "1.7",
+          "value": "1.9",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "53",
-          "nationalAverage": "13",
+          "value": "67",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".306",
-          "nationalAverage": ".521",
+          "value": ".330",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "13",
-          "nationalAverage": "17",
+          "value": "14",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -57,18 +57,18 @@
       "lastName": "Mcfadden",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/2/4/3/24347332-03eb-4509-bcc4-c49bd120e07f/thumbnail.jpg?version=639131715141274950",
+      "photoUrl": "https://image.maxpreps.io/careers/2/4/3/24347332-03eb-4509-bcc4-c49bd120e07f/thumbnail.jpg?version=639137628216960900",
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "8",
-          "nationalAverage": "8",
+          "value": "9",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -79,20 +79,20 @@
         },
         {
           "name": "Shots on Goal",
-          "value": "25",
-          "nationalAverage": "13",
+          "value": "30",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".222",
-          "nationalAverage": ".521",
+          "value": ".220",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "22",
-          "nationalAverage": "17",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -108,8 +108,8 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "13",
-          "nationalAverage": "9",
+          "value": "15",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
@@ -120,26 +120,26 @@
         },
         {
           "name": "Ground Balls",
-          "value": "20",
-          "nationalAverage": "17",
+          "value": "23",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".333",
-          "nationalAverage": ".509",
+          "nationalAverage": ".508",
           "comparison": "Above"
         },
         {
           "name": "Faceoffs Won",
           "value": "1",
-          "nationalAverage": "25",
+          "nationalAverage": "26",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "13",
+          "nationalAverage": "14",
           "comparison": "Above"
         }
       ]
@@ -155,14 +155,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "12",
-          "nationalAverage": "9",
+          "value": "14",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "4",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -173,20 +173,20 @@
         },
         {
           "name": "Shots on Goal",
-          "value": "14",
-          "nationalAverage": "13",
+          "value": "15",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".182",
-          "nationalAverage": ".521",
+          "value": ".167",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "14",
-          "nationalAverage": "17",
+          "value": "16",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -198,18 +198,18 @@
       "lastName": "Lawrence",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/0/6/0/0601a7ef-3c85-4d67-b509-c2bd5e6e43cf/thumbnail.jpg?version=639131714823922710",
+      "photoUrl": "https://image.maxpreps.io/careers/0/6/0/0601a7ef-3c85-4d67-b509-c2bd5e6e43cf/thumbnail.jpg?version=639137627847943225",
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "42",
-          "nationalAverage": "8",
+          "value": "47",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -220,20 +220,20 @@
         },
         {
           "name": "Shots on Goal",
-          "value": "56",
-          "nationalAverage": "13",
+          "value": "63",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".553",
-          "nationalAverage": ".521",
+          "value": ".534",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "29",
-          "nationalAverage": "17",
+          "value": "32",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -249,14 +249,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "12",
-          "nationalAverage": "9",
+          "value": "13",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "1",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -268,19 +268,19 @@
         {
           "name": "Shots on Goal",
           "value": "4",
-          "nationalAverage": "13",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".521",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "17",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -292,42 +292,42 @@
       "lastName": "Carter",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/f/0/8/f08d96d3-a5d0-4078-bfc1-5a6b05eecce5/thumbnail.jpg?version=639131714762142615",
+      "photoUrl": "https://image.maxpreps.io/careers/f/0/8/f08d96d3-a5d0-4078-bfc1-5a6b05eecce5/thumbnail.jpg?version=639137627772088892",
       "categories": [
         {
           "name": "Games Played",
-          "value": "14",
-          "nationalAverage": "9",
+          "value": "16",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "12",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "0.9",
+          "value": "0.8",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
           "value": "9",
-          "nationalAverage": "13",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".750",
-          "nationalAverage": ".521",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "8",
-          "nationalAverage": "17",
+          "value": "12",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -343,32 +343,32 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Takeaways",
-          "value": "9",
+          "value": "11",
           "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "20",
-          "nationalAverage": "17",
+          "value": "25",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "20",
+          "nationalAverage": "21",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "1.3",
-          "nationalAverage": "1.6",
+          "value": "1.5",
+          "nationalAverage": "1.5",
           "comparison": "Above"
         }
       ]
@@ -384,14 +384,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "8",
-          "nationalAverage": "9",
+          "value": "10",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "17",
-          "nationalAverage": "17",
+          "value": "22",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
@@ -409,12 +409,12 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "20",
+          "nationalAverage": "21",
           "comparison": "Above"
         },
         {
           "name": "Takeaways",
-          "value": "7",
+          "value": "9",
           "nationalAverage": "7",
           "comparison": "Above"
         }
@@ -441,38 +441,38 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "13",
-          "nationalAverage": "9",
+          "value": "15",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "33",
-          "nationalAverage": "8",
+          "value": "35",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "2.5",
+          "value": "2.3",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "51",
-          "nationalAverage": "13",
+          "value": "59",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".440",
-          "nationalAverage": ".521",
+          "value": ".407",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "25",
-          "nationalAverage": "17",
+          "value": "28",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -554,19 +554,19 @@
         {
           "name": "Shots on Goal",
           "value": "2",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".333",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".720",
-          "nationalAverage": ".511",
+          "nationalAverage": ".504",
           "comparison": "Above"
         }
       ]
@@ -582,8 +582,8 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "7",
-          "nationalAverage": "9",
+          "value": "9",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
@@ -594,20 +594,20 @@
         },
         {
           "name": "Ground Balls",
-          "value": "17",
-          "nationalAverage": "17",
+          "value": "21",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "20",
+          "nationalAverage": "21",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "2.4",
-          "nationalAverage": "1.6",
+          "value": "2.3",
+          "nationalAverage": "1.5",
           "comparison": "Above"
         }
       ]
@@ -630,13 +630,13 @@
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".700",
-          "nationalAverage": ".511",
+          "nationalAverage": ".504",
           "comparison": "Above"
         },
         {
@@ -670,14 +670,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "16",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "16",
-          "nationalAverage": "17",
+          "value": "19",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
@@ -695,7 +695,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "20",
+          "nationalAverage": "21",
           "comparison": "Above"
         },
         {
@@ -742,12 +742,12 @@
       "lastName": "Sandberg",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/d/c/2/dc2978a0-3ede-4ed8-8662-a19c24e33603/thumbnail.jpg?version=639131715161856661",
+      "photoUrl": "https://image.maxpreps.io/careers/d/c/2/dc2978a0-3ede-4ed8-8662-a19c24e33603/thumbnail.jpg?version=639137628241917690",
       "categories": [
         {
           "name": "Games Played",
-          "value": "8",
-          "nationalAverage": "9",
+          "value": "10",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
@@ -758,14 +758,14 @@
         },
         {
           "name": "Ground Balls",
-          "value": "7",
-          "nationalAverage": "17",
+          "value": "8",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "0.9",
-          "nationalAverage": "1.6",
+          "value": "0.8",
+          "nationalAverage": "1.5",
           "comparison": "Above"
         }
       ]
@@ -845,14 +845,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "8",
-          "nationalAverage": "9",
+          "value": "9",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "1",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -864,13 +864,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".521",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "1",
-          "nationalAverage": "17",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
@@ -899,7 +899,7 @@
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
@@ -928,19 +928,19 @@
         {
           "name": "Games Played",
           "value": "8",
-          "nationalAverage": "9",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "17",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
           "value": "0.4",
-          "nationalAverage": "1.6",
+          "nationalAverage": "1.5",
           "comparison": "Above"
         }
       ]
@@ -956,14 +956,14 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "5",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -975,19 +975,19 @@
         {
           "name": "Shots on Goal",
           "value": "5",
-          "nationalAverage": "13",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".455",
-          "nationalAverage": ".521",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
-          "value": ".492",
-          "nationalAverage": ".509",
+          "value": ".486",
+          "nationalAverage": ".508",
           "comparison": "Above"
         }
       ]
@@ -1004,19 +1004,19 @@
         {
           "name": "Games Played",
           "value": "6",
-          "nationalAverage": "9",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
           "value": "3",
-          "nationalAverage": "17",
+          "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
           "value": "0.5",
-          "nationalAverage": "1.6",
+          "nationalAverage": "1.5",
           "comparison": "Above"
         }
       ]
@@ -1051,13 +1051,13 @@
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
@@ -1075,41 +1075,41 @@
       "lastName": "Taggart",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/5/5/7/5577e898-961f-4fee-b136-894ce32c4c29/thumbnail.jpg?version=639131715058884557",
+      "photoUrl": "https://image.maxpreps.io/careers/5/5/7/5577e898-961f-4fee-b136-894ce32c4c29/thumbnail.jpg?version=639137628125118323",
       "categories": [
         {
           "name": "Goalkeeper Minutes",
-          "value": "684",
-          "nationalAverage": "241",
+          "value": "780",
+          "nationalAverage": "248",
           "comparison": "Above"
         },
         {
           "name": "Saves",
-          "value": "127",
-          "nationalAverage": "30",
+          "value": "146",
+          "nationalAverage": "31",
           "comparison": "Above"
         },
         {
           "name": "Save Percentage",
-          "value": ".552",
-          "nationalAverage": ".251",
+          "value": ".564",
+          "nationalAverage": ".250",
           "comparison": "Above"
         },
         {
           "name": "Goals Against Average",
-          "value": "7.2",
-          "nationalAverage": "11.0",
+          "value": "7.0",
+          "nationalAverage": "10.7",
           "comparison": "Above"
         },
         {
           "name": "Goals Against",
-          "value": "103",
-          "nationalAverage": "24",
+          "value": "113",
+          "nationalAverage": "25",
           "comparison": "Above"
         },
         {
           "name": "Win",
-          "value": "11",
+          "value": "12",
           "nationalAverage": "4",
           "comparison": "Above"
         }
@@ -1145,13 +1145,13 @@
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
@@ -1173,38 +1173,38 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "13",
-          "nationalAverage": "8",
+          "value": "14",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "0.9",
+          "value": "0.8",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "27",
-          "nationalAverage": "13",
+          "value": "29",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".289",
-          "nationalAverage": ".521",
+          "value": ".292",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
-          "value": ".509",
-          "nationalAverage": ".509",
+          "value": ".504",
+          "nationalAverage": ".508",
           "comparison": "Above"
         }
       ]
@@ -1261,42 +1261,42 @@
       "lastName": "Chipman",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/7/1/8/718544a9-f355-4157-89df-14b601d91e93/thumbnail.jpg?version=639131715002893358",
+      "photoUrl": "https://image.maxpreps.io/careers/7/1/8/718544a9-f355-4157-89df-14b601d91e93/thumbnail.jpg?version=639137628060218637",
       "categories": [
         {
           "name": "Games Played",
-          "value": "13",
-          "nationalAverage": "9",
+          "value": "15",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "19",
-          "nationalAverage": "8",
+          "value": "21",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "1.5",
+          "value": "1.4",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "27",
-          "nationalAverage": "13",
+          "value": "29",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".500",
-          "nationalAverage": ".521",
+          "value": ".512",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "11",
-          "nationalAverage": "17",
+          "value": "13",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -1308,7 +1308,7 @@
       "lastName": "Gurr",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639131714993550870",
+      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639137628044628694",
       "categories": [
         {
           "name": "Games Played",
@@ -1342,25 +1342,25 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "83",
-          "nationalAverage": "164",
+          "nationalAverage": "169",
           "comparison": "Above"
         },
         {
           "name": "Saves",
           "value": "8",
-          "nationalAverage": "15",
+          "nationalAverage": "16",
           "comparison": "Above"
         },
         {
           "name": "Save Percentage",
           "value": ".571",
-          "nationalAverage": ".245",
+          "nationalAverage": ".241",
           "comparison": "Above"
         },
         {
           "name": "Goals Against Average",
           "value": "3.5",
-          "nationalAverage": "7.2",
+          "nationalAverage": "7.3",
           "comparison": "Above"
         },
         {
@@ -1407,13 +1407,13 @@
         {
           "name": "Shots on Goal",
           "value": "6",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".222",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
@@ -1454,7 +1454,7 @@
         {
           "name": "Draws Won",
           "value": ".500",
-          "nationalAverage": ".511",
+          "nationalAverage": ".504",
           "comparison": "Above"
         },
         {
@@ -1583,13 +1583,13 @@
         {
           "name": "Shots on Goal",
           "value": "1",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".500",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
@@ -1694,13 +1694,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".250",
-          "nationalAverage": ".511",
+          "nationalAverage": ".504",
           "comparison": "Above"
         },
         {
@@ -1718,18 +1718,18 @@
       "lastName": "Ash",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/9/e/b/9ebdd2d4-84a2-44d9-af5d-cbc33d90d33b/thumbnail.jpg?version=639131714887688242",
+      "photoUrl": "https://image.maxpreps.io/careers/9/e/b/9ebdd2d4-84a2-44d9-af5d-cbc33d90d33b/thumbnail.jpg?version=639137627919827111",
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
-          "nationalAverage": "9",
+          "value": "17",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
           "value": "1",
-          "nationalAverage": "8",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
@@ -1741,19 +1741,19 @@
         {
           "name": "Shots on Goal",
           "value": "4",
-          "nationalAverage": "13",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".143",
-          "nationalAverage": ".521",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "59",
-          "nationalAverage": "17",
+          "value": "66",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -1910,42 +1910,42 @@
       "lastName": "Schulz",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/7/9/b/79bff878-831a-4ebb-ab6c-8c563826f2b0/thumbnail.jpg?version=639131714813854583",
+      "photoUrl": "https://image.maxpreps.io/careers/7/9/b/79bff878-831a-4ebb-ab6c-8c563826f2b0/thumbnail.jpg?version=639137627837475029",
       "categories": [
         {
           "name": "Games Played",
-          "value": "13",
-          "nationalAverage": "9",
+          "value": "15",
+          "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "5",
-          "nationalAverage": "8",
+          "value": "7",
+          "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "0.4",
+          "value": "0.5",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "10",
-          "nationalAverage": "13",
+          "value": "12",
+          "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".250",
-          "nationalAverage": ".521",
+          "value": ".292",
+          "nationalAverage": ".525",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "9",
-          "nationalAverage": "17",
+          "value": "10",
+          "nationalAverage": "18",
           "comparison": "Above"
         }
       ]
@@ -2009,13 +2009,13 @@
         {
           "name": "Shots on Goal",
           "value": "3",
-          "nationalAverage": "7",
+          "nationalAverage": "8",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
           "value": ".833",
-          "nationalAverage": ".427",
+          "nationalAverage": ".415",
           "comparison": "Above"
         },
         {
