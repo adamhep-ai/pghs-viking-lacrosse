@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-07T15:29:54.330Z",
+  "fetchedAt": "2026-05-09T14:18:36.629Z",
   "source": "maxpreps.com",
   "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
   "players": {
@@ -39,7 +39,7 @@
         {
           "name": "Shot Percentage",
           "value": ".330",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -86,7 +86,7 @@
         {
           "name": "Shot Percentage",
           "value": ".220",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -127,13 +127,13 @@
         {
           "name": "Draws Won",
           "value": ".333",
-          "nationalAverage": ".508",
+          "nationalAverage": ".509",
           "comparison": "Above"
         },
         {
           "name": "Faceoffs Won",
           "value": "1",
-          "nationalAverage": "26",
+          "nationalAverage": "27",
           "comparison": "Above"
         },
         {
@@ -180,7 +180,7 @@
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -227,7 +227,7 @@
         {
           "name": "Shot Percentage",
           "value": ".534",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -274,7 +274,7 @@
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -321,7 +321,7 @@
         {
           "name": "Shot Percentage",
           "value": ".750",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -362,7 +362,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "21",
+          "nationalAverage": "22",
           "comparison": "Above"
         },
         {
@@ -409,7 +409,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "21",
+          "nationalAverage": "22",
           "comparison": "Above"
         },
         {
@@ -466,7 +466,7 @@
         {
           "name": "Shot Percentage",
           "value": ".407",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -519,7 +519,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         }
       ]
@@ -560,13 +560,13 @@
         {
           "name": "Shot Percentage",
           "value": ".333",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".720",
-          "nationalAverage": ".504",
+          "nationalAverage": ".503",
           "comparison": "Above"
         }
       ]
@@ -601,7 +601,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "21",
+          "nationalAverage": "22",
           "comparison": "Above"
         },
         {
@@ -636,7 +636,7 @@
         {
           "name": "Draws Won",
           "value": ".700",
-          "nationalAverage": ".504",
+          "nationalAverage": ".503",
           "comparison": "Above"
         },
         {
@@ -648,7 +648,7 @@
         {
           "name": "Total Shots",
           "value": "2",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
@@ -695,7 +695,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "21",
+          "nationalAverage": "22",
           "comparison": "Above"
         },
         {
@@ -817,7 +817,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -864,7 +864,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -905,13 +905,13 @@
         {
           "name": "Total Shots",
           "value": "2",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
           "name": "Takeaways",
           "value": "2",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         }
       ]
@@ -981,13 +981,13 @@
         {
           "name": "Shot Percentage",
           "value": ".455",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".486",
-          "nationalAverage": ".508",
+          "nationalAverage": ".509",
           "comparison": "Above"
         }
       ]
@@ -1057,7 +1057,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
@@ -1080,13 +1080,13 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "780",
-          "nationalAverage": "248",
+          "nationalAverage": "257",
           "comparison": "Above"
         },
         {
           "name": "Saves",
           "value": "146",
-          "nationalAverage": "31",
+          "nationalAverage": "32",
           "comparison": "Above"
         },
         {
@@ -1098,13 +1098,13 @@
         {
           "name": "Goals Against Average",
           "value": "7.0",
-          "nationalAverage": "10.7",
+          "nationalAverage": "10.8",
           "comparison": "Above"
         },
         {
           "name": "Goals Against",
           "value": "113",
-          "nationalAverage": "25",
+          "nationalAverage": "26",
           "comparison": "Above"
         },
         {
@@ -1151,7 +1151,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
@@ -1198,13 +1198,13 @@
         {
           "name": "Shot Percentage",
           "value": ".292",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".504",
-          "nationalAverage": ".508",
+          "nationalAverage": ".509",
           "comparison": "Above"
         }
       ]
@@ -1237,7 +1237,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -1290,7 +1290,7 @@
         {
           "name": "Shot Percentage",
           "value": ".512",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -1308,7 +1308,7 @@
       "lastName": "Gurr",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639137628044628694",
+      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639138734461244376",
       "categories": [
         {
           "name": "Games Played",
@@ -1342,7 +1342,7 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "83",
-          "nationalAverage": "169",
+          "nationalAverage": "176",
           "comparison": "Above"
         },
         {
@@ -1366,7 +1366,7 @@
         {
           "name": "Goals Against",
           "value": "6",
-          "nationalAverage": "12",
+          "nationalAverage": "13",
           "comparison": "Above"
         },
         {
@@ -1413,7 +1413,7 @@
         {
           "name": "Shot Percentage",
           "value": ".222",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
@@ -1442,7 +1442,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -1454,7 +1454,7 @@
         {
           "name": "Draws Won",
           "value": ".500",
-          "nationalAverage": ".504",
+          "nationalAverage": ".503",
           "comparison": "Above"
         },
         {
@@ -1495,7 +1495,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -1589,7 +1589,7 @@
         {
           "name": "Shot Percentage",
           "value": ".500",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
@@ -1647,7 +1647,7 @@
         {
           "name": "Takeaways",
           "value": "1",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -1694,13 +1694,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".250",
-          "nationalAverage": ".504",
+          "nationalAverage": ".503",
           "comparison": "Above"
         },
         {
@@ -1747,7 +1747,7 @@
         {
           "name": "Shot Percentage",
           "value": ".143",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -1776,7 +1776,7 @@
         {
           "name": "Takeaways",
           "value": "2",
-          "nationalAverage": "4",
+          "nationalAverage": "5",
           "comparison": "Above"
         },
         {
@@ -1892,7 +1892,7 @@
         {
           "name": "Total Shots",
           "value": "1",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
@@ -1939,7 +1939,7 @@
         {
           "name": "Shot Percentage",
           "value": ".292",
-          "nationalAverage": ".525",
+          "nationalAverage": ".529",
           "comparison": "Above"
         },
         {
@@ -2015,7 +2015,7 @@
         {
           "name": "Shot Percentage",
           "value": ".833",
-          "nationalAverage": ".415",
+          "nationalAverage": ".411",
           "comparison": "Above"
         },
         {
