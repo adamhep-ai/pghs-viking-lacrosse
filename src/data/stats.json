@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-09T14:18:36.629Z",
+  "fetchedAt": "2026-05-11T15:58:01.703Z",
   "source": "maxpreps.com",
   "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
   "players": {
@@ -14,7 +14,7 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -26,25 +26,25 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "1.9",
+          "value": "1.8",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "67",
+          "value": "69",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".330",
-          "nationalAverage": ".529",
+          "value": ".324",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "14",
+          "value": "15",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -57,11 +57,11 @@
       "lastName": "Mcfadden",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/2/4/3/24347332-03eb-4509-bcc4-c49bd120e07f/thumbnail.jpg?version=639137628216960900",
+      "photoUrl": "https://image.maxpreps.io/careers/2/4/3/24347332-03eb-4509-bcc4-c49bd120e07f/thumbnail.jpg?version=639140510280485815",
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -86,12 +86,12 @@
         {
           "name": "Shot Percentage",
           "value": ".220",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "22",
+          "value": "24",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -108,7 +108,7 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
+          "value": "16",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -120,14 +120,14 @@
         },
         {
           "name": "Ground Balls",
-          "value": "23",
+          "value": "24",
           "nationalAverage": "18",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".333",
-          "nationalAverage": ".509",
+          "nationalAverage": ".508",
           "comparison": "Above"
         },
         {
@@ -180,7 +180,7 @@
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
@@ -198,11 +198,11 @@
       "lastName": "Lawrence",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/0/6/0/0601a7ef-3c85-4d67-b509-c2bd5e6e43cf/thumbnail.jpg?version=639137627847943225",
+      "photoUrl": "https://image.maxpreps.io/careers/0/6/0/0601a7ef-3c85-4d67-b509-c2bd5e6e43cf/thumbnail.jpg?version=639140509944456496",
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -214,25 +214,25 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "2.8",
+          "value": "2.6",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "63",
+          "value": "64",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".534",
-          "nationalAverage": ".529",
+          "value": ".528",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "32",
+          "value": "35",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -274,7 +274,7 @@
         {
           "name": "Shot Percentage",
           "value": ".167",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
@@ -292,11 +292,11 @@
       "lastName": "Carter",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/f/0/8/f08d96d3-a5d0-4078-bfc1-5a6b05eecce5/thumbnail.jpg?version=639137627772088892",
+      "photoUrl": "https://image.maxpreps.io/careers/f/0/8/f08d96d3-a5d0-4078-bfc1-5a6b05eecce5/thumbnail.jpg?version=639140509877692966",
       "categories": [
         {
           "name": "Games Played",
-          "value": "16",
+          "value": "17",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -308,20 +308,20 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "0.8",
+          "value": "0.7",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "9",
+          "value": "10",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".750",
-          "nationalAverage": ".529",
+          "value": ".706",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
@@ -343,19 +343,19 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Takeaways",
-          "value": "11",
+          "value": "12",
           "nationalAverage": "7",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "25",
+          "value": "26",
           "nationalAverage": "18",
           "comparison": "Above"
         },
@@ -367,7 +367,7 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "1.5",
+          "value": "1.4",
           "nationalAverage": "1.5",
           "comparison": "Above"
         }
@@ -384,13 +384,13 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "10",
+          "value": "11",
           "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "22",
+          "value": "23",
           "nationalAverage": "18",
           "comparison": "Above"
         },
@@ -414,7 +414,7 @@
         },
         {
           "name": "Takeaways",
-          "value": "9",
+          "value": "10",
           "nationalAverage": "7",
           "comparison": "Above"
         }
@@ -441,13 +441,13 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
+          "value": "16",
           "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "35",
+          "value": "36",
           "nationalAverage": "9",
           "comparison": "Above"
         },
@@ -459,19 +459,19 @@
         },
         {
           "name": "Shots on Goal",
-          "value": "59",
+          "value": "62",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".407",
-          "nationalAverage": ".529",
+          "value": ".404",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "28",
+          "value": "31",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -560,13 +560,13 @@
         {
           "name": "Shot Percentage",
           "value": ".333",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".720",
-          "nationalAverage": ".503",
+          "nationalAverage": ".501",
           "comparison": "Above"
         }
       ]
@@ -636,7 +636,7 @@
         {
           "name": "Draws Won",
           "value": ".700",
-          "nationalAverage": ".503",
+          "nationalAverage": ".501",
           "comparison": "Above"
         },
         {
@@ -742,7 +742,7 @@
       "lastName": "Sandberg",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/d/c/2/dc2978a0-3ede-4ed8-8662-a19c24e33603/thumbnail.jpg?version=639137628241917690",
+      "photoUrl": "https://image.maxpreps.io/careers/d/c/2/dc2978a0-3ede-4ed8-8662-a19c24e33603/thumbnail.jpg?version=639140510301985592",
       "categories": [
         {
           "name": "Games Played",
@@ -864,7 +864,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
@@ -956,7 +956,7 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -981,13 +981,13 @@
         {
           "name": "Shot Percentage",
           "value": ".455",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
-          "value": ".486",
-          "nationalAverage": ".509",
+          "value": ".494",
+          "nationalAverage": ".508",
           "comparison": "Above"
         }
       ]
@@ -1057,7 +1057,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
@@ -1075,35 +1075,35 @@
       "lastName": "Taggart",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/5/5/7/5577e898-961f-4fee-b136-894ce32c4c29/thumbnail.jpg?version=639137628125118323",
+      "photoUrl": "https://image.maxpreps.io/careers/5/5/7/5577e898-961f-4fee-b136-894ce32c4c29/thumbnail.jpg?version=639140510198307212",
       "categories": [
         {
           "name": "Goalkeeper Minutes",
-          "value": "780",
-          "nationalAverage": "257",
+          "value": "828",
+          "nationalAverage": "260",
           "comparison": "Above"
         },
         {
           "name": "Saves",
-          "value": "146",
-          "nationalAverage": "32",
+          "value": "153",
+          "nationalAverage": "33",
           "comparison": "Above"
         },
         {
           "name": "Save Percentage",
-          "value": ".564",
-          "nationalAverage": ".250",
+          "value": ".556",
+          "nationalAverage": ".248",
           "comparison": "Above"
         },
         {
           "name": "Goals Against Average",
-          "value": "7.0",
-          "nationalAverage": "10.8",
+          "value": "7.1",
+          "nationalAverage": "10.9",
           "comparison": "Above"
         },
         {
           "name": "Goals Against",
-          "value": "113",
+          "value": "122",
           "nationalAverage": "26",
           "comparison": "Above"
         },
@@ -1151,7 +1151,7 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
@@ -1173,38 +1173,38 @@
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
         {
           "name": "Goals",
-          "value": "14",
+          "value": "17",
           "nationalAverage": "9",
           "comparison": "Above"
         },
         {
           "name": "Goals Per Game",
-          "value": "0.8",
+          "value": "0.9",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "29",
+          "value": "32",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".292",
-          "nationalAverage": ".529",
+          "value": ".333",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
-          "value": ".504",
-          "nationalAverage": ".509",
+          "value": ".496",
+          "nationalAverage": ".508",
           "comparison": "Above"
         }
       ]
@@ -1214,10 +1214,17 @@
       "profileUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/athletes/davis-orton/?careerid=j32h78utd9s00",
       "firstName": "Davis",
       "lastName": "Orton",
-      "seasonYear": null,
+      "seasonYear": "2026",
       "hasStats": true,
       "photoUrl": null,
-      "categories": []
+      "categories": [
+        {
+          "name": "Games Played",
+          "value": "1",
+          "nationalAverage": "10",
+          "comparison": "Above"
+        }
+      ]
     },
     "31": {
       "careerid": "diu4v5sk3mc11",
@@ -1261,11 +1268,11 @@
       "lastName": "Chipman",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/7/1/8/718544a9-f355-4157-89df-14b601d91e93/thumbnail.jpg?version=639137628060218637",
+      "photoUrl": "https://image.maxpreps.io/careers/7/1/8/718544a9-f355-4157-89df-14b601d91e93/thumbnail.jpg?version=639140510137581220",
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
+          "value": "16",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -1277,25 +1284,25 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "1.4",
+          "value": "1.3",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
         {
           "name": "Shots on Goal",
-          "value": "29",
+          "value": "31",
           "nationalAverage": "14",
           "comparison": "Above"
         },
         {
           "name": "Shot Percentage",
-          "value": ".512",
-          "nationalAverage": ".529",
+          "value": ".488",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "13",
+          "value": "14",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -1308,7 +1315,7 @@
       "lastName": "Gurr",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639138734461244376",
+      "photoUrl": "https://image.maxpreps.io/careers/6/a/5/6a58d31b-61c0-4067-9002-fdd3368314b2/thumbnail.jpg?version=639140510127425084",
       "categories": [
         {
           "name": "Games Played",
@@ -1342,7 +1349,7 @@
         {
           "name": "Goalkeeper Minutes",
           "value": "83",
-          "nationalAverage": "176",
+          "nationalAverage": "177",
           "comparison": "Above"
         },
         {
@@ -1413,7 +1420,7 @@
         {
           "name": "Shot Percentage",
           "value": ".222",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
@@ -1454,13 +1461,13 @@
         {
           "name": "Draws Won",
           "value": ".500",
-          "nationalAverage": ".503",
+          "nationalAverage": ".501",
           "comparison": "Above"
         },
         {
           "name": "Faceoffs Won",
           "value": "1",
-          "nationalAverage": "11",
+          "nationalAverage": "12",
           "comparison": "Above"
         },
         {
@@ -1589,7 +1596,7 @@
         {
           "name": "Shot Percentage",
           "value": ".500",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
@@ -1694,13 +1701,13 @@
         {
           "name": "Shot Percentage",
           "value": "1.000",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
           "name": "Draws Won",
           "value": ".250",
-          "nationalAverage": ".503",
+          "nationalAverage": ".501",
           "comparison": "Above"
         },
         {
@@ -1718,11 +1725,11 @@
       "lastName": "Ash",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/9/e/b/9ebdd2d4-84a2-44d9-af5d-cbc33d90d33b/thumbnail.jpg?version=639137627919827111",
+      "photoUrl": "https://image.maxpreps.io/careers/9/e/b/9ebdd2d4-84a2-44d9-af5d-cbc33d90d33b/thumbnail.jpg?version=639140510007923874",
       "categories": [
         {
           "name": "Games Played",
-          "value": "17",
+          "value": "18",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -1747,12 +1754,12 @@
         {
           "name": "Shot Percentage",
           "value": ".143",
-          "nationalAverage": ".529",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
           "name": "Ground Balls",
-          "value": "66",
+          "value": "68",
           "nationalAverage": "18",
           "comparison": "Above"
         }
@@ -1910,11 +1917,11 @@
       "lastName": "Schulz",
       "seasonYear": "2026",
       "hasStats": true,
-      "photoUrl": "https://image.maxpreps.io/careers/7/9/b/79bff878-831a-4ebb-ab6c-8c563826f2b0/thumbnail.jpg?version=639137627837475029",
+      "photoUrl": "https://image.maxpreps.io/careers/7/9/b/79bff878-831a-4ebb-ab6c-8c563826f2b0/thumbnail.jpg?version=639140509934232970",
       "categories": [
         {
           "name": "Games Played",
-          "value": "15",
+          "value": "16",
           "nationalAverage": "10",
           "comparison": "Above"
         },
@@ -1926,7 +1933,7 @@
         },
         {
           "name": "Goals Per Game",
-          "value": "0.5",
+          "value": "0.4",
           "nationalAverage": "0.7",
           "comparison": "Above"
         },
@@ -1938,8 +1945,8 @@
         },
         {
           "name": "Shot Percentage",
-          "value": ".292",
-          "nationalAverage": ".529",
+          "value": ".280",
+          "nationalAverage": ".530",
           "comparison": "Above"
         },
         {
@@ -2015,7 +2022,7 @@
         {
           "name": "Shot Percentage",
           "value": ".833",
-          "nationalAverage": ".411",
+          "nationalAverage": ".412",
           "comparison": "Above"
         },
         {
