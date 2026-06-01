@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-31T14:49:08.469Z",
+  "fetchedAt": "2026-06-01T18:42:10.007Z",
   "source": "maxpreps.com",
   "teamUrl": "https://www.maxpreps.com/ut/pleasant-grove/pleasant-grove-vikings/lacrosse/roster/",
   "players": {
@@ -127,7 +127,7 @@
         {
           "name": "Draws Won",
           "value": ".333",
-          "nationalAverage": ".505",
+          "nationalAverage": ".506",
           "comparison": "Above"
         },
         {
@@ -987,7 +987,7 @@
         {
           "name": "Draws Won",
           "value": ".542",
-          "nationalAverage": ".505",
+          "nationalAverage": ".506",
           "comparison": "Above"
         }
       ]
@@ -1086,13 +1086,13 @@
         {
           "name": "Saves",
           "value": "170",
-          "nationalAverage": "36",
+          "nationalAverage": "35",
           "comparison": "Above"
         },
         {
           "name": "Save Percentage",
           "value": ".556",
-          "nationalAverage": ".250",
+          "nationalAverage": ".249",
           "comparison": "Above"
         },
         {
@@ -1204,7 +1204,7 @@
         {
           "name": "Draws Won",
           "value": ".498",
-          "nationalAverage": ".505",
+          "nationalAverage": ".506",
           "comparison": "Above"
         }
       ]
