@@ -59,13 +59,17 @@ export function PlayerPage() {
 
       <PlayerMeta player={player} />
 
+      <p className="rounded-lg border border-team-grey-light bg-white p-4 text-sm text-team-grey">
+        Archived 2026 statistics. Automatic updates are paused.
+      </p>
+
       {hasSeasonStats && <StatsGrid categories={stats!.categories} />}
 
       {lifts.length > 0 && <LiftsGrid lifts={lifts} />}
 
       {!hasSeasonStats && lifts.length === 0 && (
         <div className="rounded-lg border border-team-grey-light bg-white p-4 text-sm text-team-grey">
-          No stats posted yet for {player.name} this season.
+          No stats available for {player.name} in this archive.
         </div>
       )}
 

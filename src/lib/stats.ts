@@ -1,5 +1,6 @@
 // Typed accessors over the scraped MaxPreps stats JSON.
-// Source: scripts/scrape-stats.mjs writes src/data/stats.json on a cron.
+// Source: scripts/scrape-stats.mjs writes src/data/stats.json.
+// Automatic refresh is paused; this file represents the archived 2026 snapshot.
 
 import statsJson from "../data/stats.json";
 

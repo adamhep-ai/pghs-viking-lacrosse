@@ -1,9 +1,8 @@
 name: Refresh MaxPreps stats
 
 on:
-  schedule:
-    # Every other day at 13:00 UTC (~7am MT in season).
-    - cron: "0 13 */2 * *"
+  # Off-season: automatic refresh is retired for the 2026 archive.
+  # Repair and validate the scraper for March 2027 before restoring a schedule.
   workflow_dispatch:
 
 permissions:
